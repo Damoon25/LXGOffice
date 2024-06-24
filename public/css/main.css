@@ -1,0 +1,1846 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* VARIABLES */
+
+:root {
+    --hover-color: #1c9bd7;
+    --title-color: #231F20;
+    --btn-color: #67AEC6;
+    --font-body: font-family: 'Space Mono', monospace;
+    --font1: "Nunito Sans", sans-serif;
+    --fondo1: #6EC1E4;
+    --section2: #F7F7F7;
+    --login: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    --color1: #67AEC6;
+    --color2: #FFFFFF;
+    --color3: #62B192;
+    --color4: rgb(128, 155, 163);
+    --color5: #303C31;
+    --color6: #01486B;
+    --color7: #7F7769;
+    --color8: #EDEDED;
+    --color9: #01486B;
+    --textFooter: #999999;
+    --text: #ffffff;
+    --text-parrafo: #231F20;
+    --link: #ffffff;
+    --bg-card-header: rgb(248, 248, 248);
+    --validado: rgb(78, 223, 83);
+    --warning-color: #c7ba02;
+    --excel-btn: #198754;
+    --pdf-btn: #a9291d;
+    --procesado: rgb(100, 213, 104);
+    --sinProcesar: #f5ea53;
+    --danger-color: #a91327;
+    --modify-color: #13b32b;
+}
+
+
+.bt-container {
+    font-family: "Space Mono", monospace;
+    max-height: 68px;
+    overflow: hidden;
+    margin: 0;
+    color: #fff;
+    background-color: #111420;
+}
+
+ul#bt {
+    margin-bottom: 0;
+    list-style-type: none;
+    font-size: 0.65rem;
+}
+
+ul#bt li {
+    border-left: 1px solid #353a46;
+    border-right: 1px solid #353a46;
+    padding: 5px 20px 0 20px;
+    min-width: 155px;
+}
+
+ul#bt li div:nth-child(2) {
+    font-family: "Space Mono", monospace;
+    font-weight: 800;
+    padding-top: 3px;
+    padding-bottom: 25px;
+}
+
+ul#bt li div:nth-child(2) span:first-child {
+    font-size: 1.25rem;
+}
+
+ul#bt li div:nth-child(2) span:first-child i {
+    padding-right: 5px;
+    font-size: 1.55rem;
+}
+
+ul#bt li div:nth-child(2) span:nth-child(2) {
+    margin-left: 10px;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR MENU*/
+
+ul {
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+}
+
+.header2 {
+    padding-bottom: 3% !important;
+}
+
+.nav {
+    width: 100%;
+    overflow: hidden;
+    transition: max-height .5s ease-out;
+}
+
+.navbar-custom {
+    background-color: transparent !important;
+    /* box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1) !important; */
+}
+
+.offcanvas {
+    background-color: rgba(103, 174, 198, .9) !important;
+}
+
+.nav-link{
+    font-family: "Nunito Sans" !important;
+    font-size: 15px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 150% !important; /* 22.5px */
+    text-transform: uppercase;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+@media (min-width: 992px) {
+    .menu li {
+        float: left;
+    }
+}
+
+/**/
+
+body {
+    background-color: #323232;
+    font-family: 'Space Mono', monospace !important;
+}
+
+
+#logo {
+    width: 90% !important;
+    border: none;
+}
+
+.navbar-brand{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+h1 {
+    font-family: 'Space Mono', monospace !important;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0px;
+}
+
+.lineaTitulo1 {
+    width: 10% !important;
+    border: 3px solid !important;
+    border-radius: 5px !important;
+    border-color: var(--fondo1) !important;
+    opacity: 1 !important;
+}
+
+.lineaTitulo2 {
+    width: 10% !important;
+    border: 3px solid !important;
+    border-radius: 5px !important;
+    border-color: var(--text) !important;
+    opacity: 1 !important;
+}
+
+.lineaTitulo3 {
+    width: 20% !important;
+    border: 1px solid !important;
+    border-radius: 5px !important;
+    border-color: var(--text) !important;
+    opacity: 1 !important;
+}
+
+a {
+    font-family: var(--font-body) !important;
+    color: var(--text) !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #1c9bd7;
+}
+
+/* NAVBAR */
+
+.btnMenu{
+    background-color: transparent !important;
+    border: transparent !important;
+    padding-top: 15px !important;
+}
+
+/* .btnMenu2{
+    width: 10% !important;
+    background-color: transparent !important;
+    border: transparent !important;
+    padding-top: 15px !important;
+} */
+
+#btn_atras {
+    display: block;
+    color: var(--link) !important;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.textoNav {
+    transition: ease 0.5s;
+    color: var(--link);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.textoNav:hover {
+    color: #ffffff;
+}
+
+.btnAccesoLoginMobile {
+    transition: ease 0.5s;
+    width: 100% !important;
+    height: 45px !important;
+    background-color: var(--title-color) !important;
+    border-color: transparent;
+    color: #e7f0fd !important;
+    padding: 15px !important;
+    font-size: 15px !important;
+}
+
+.btnAccesoLoginMobile:hover {
+    background-color: var(--parrafo-color) !important;
+    color: var(--text) !important;
+    font-weight: bold;
+}
+
+/* ADMINISTRADOR */
+
+.card-login {
+    background: var(--login) !important;
+    width: 23rem !important;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    border-radius: 40px !important;
+}
+
+.boton-Login {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    background-color: var(--btn-color) !important;
+    color: #ffff !important;
+}
+
+.boton-Register {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    background-color: #ffff !important;
+    color: var(--btn-color) !important;
+}
+
+#register {
+    border: 2px solid;
+    background: none !important;
+    color: var(--boton-color);
+}
+
+.backgroundLogin {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#logoAdmin {
+    border: transparent;
+    width: 60%;
+    padding: 30px !important;
+}
+
+.containerLogin {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.btnAdmin {
+    color: #ffff !important;
+    border: 1px solid;
+    font-weight: normal;
+    background: var(--fondo1) !important;
+    transition: ease 4s all;
+}
+
+.btnOnline {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    background-color: var(--link);
+    border: solid 1px var(--link) !important;
+    border-radius: 25px !important;
+}
+
+.btnAdmin:hover {
+    color: var(--fondo1) !important;
+    border: 2px solid !important;
+    font-weight: normal !important;
+    background: #ffff !important;
+    font-weight: bold !important;
+}
+
+.btnExcel {
+    color: #ffff !important;
+    background-color: var(--excel-btn) !important;
+}
+
+.btn-cancelar {
+    background: var(--danger-color) !important;
+    color: #e7f0fd !important;
+}
+
+.btn-modificar {
+    background: var(--modify-color) !important;
+    color: #e7f0fd !important;
+}
+
+.fa-solid {
+    font-size: x-large !important;
+    color: var(--boton-color) !important;
+    margin: 10px !important;
+}
+
+.tituloAdmin {
+    color: var(--fondo1);
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+/*-----------------------------*/
+
+.textoNav1 {
+    transition: ease 0.5s;
+    color: var(--text-parrafo) !important;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.textoNav1:hover {
+    color: var(--text-parrafo) !important;
+    font-weight: bold;
+}
+
+.btn-journey {
+    border-color: var(--link) !important;
+    border: 1px solid var(--textFooter) !important;
+    background-color: transparent !important;
+    padding: 0px !important;
+    transition: border .5s ease, color .5s ease !important;
+}
+
+.btn-journey:hover {
+    color: var(--btn-color) !important;
+    border-color: var(--btn-colorr) !important;
+}
+
+.text-journey {
+    color: var(--textFooter) !important;
+    font-size: 13px !important;
+    font-family: var(--font1) !important;
+    padding: 10px !important;
+    transition: border .5s ease, color .5s ease !important;
+}
+
+.text-journey:hover {
+    color: var(--btn-color) !important;
+    font-weight: bold !important;
+}
+
+.textAge {
+    color: var(--color8) !important;
+    font-family: var(--font1) !important;
+    font-size: 90px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 70% !important;
+}
+
+.btn-nav {
+    border-color: var(--link) !important;
+    border: none !important;
+    padding: 0px !important;
+    transition: border 1s ease !important;
+}
+
+.btn-nav:hover {
+    border: 1px solid var(--link) !important;
+    background-color: transparent !important;
+    color: #ffffff;
+}
+
+.btn-nav a {
+    text-decoration: none;
+    color: var(--link) !important;
+}
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 22px;
+}
+
+/* BOTONES */
+
+#flecha {
+    color: var(--fondo1) !important;
+    font-size: 40px !important;
+}
+
+.btnAccesoLogin {
+    transition: ease 0.5s;
+    width: 100% !important;
+    height: 25px !important;
+    background-color: var(--title-color) !important;
+    border-color: transparent;
+    color: #e7f0fd !important;
+    padding: 5px !important;
+    font-size: 13px !important;
+}
+
+.btnAccesoLogin:hover {
+    background-color: var(--parrafo-color) !important;
+    color: var(--text) !important;
+    font-weight: bold;
+}
+
+/* HOME */
+
+.paddingBottom {
+    padding-bottom: 5% !important;
+}
+
+.paddingTop {
+    padding-top: 5% !important;
+}
+
+#home {
+    padding-top: 9% !important;
+}
+
+.prev-button {
+    background-image: url('../img/Buttons/buttonForward.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: background-image 0.3s ease;
+}
+
+.prev-button:hover {
+    background-image: url('../img/Buttons/hoverButtonNext.png');
+}
+
+.portadaNews2{
+    background-image: url('../img/imgPortadas/LXG-Hero-4.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portadaInvestors{
+    background-image: url('../img/imgPortadas/LXG-Hero-5.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-indicators .d-flex {
+    position: relative !important;
+}
+
+.carousel-indicators button {
+    margin-bottom: 5px !important;
+}
+
+.seccion {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+
+.carousel-indicators p {
+    position: absolute !important;
+    top: -2px !important;
+    left: 50% !important; 
+    transform: translateX(-50%) !important; 
+}
+
+.textCarousel {
+    color: var(--link) !important;
+    font-family: "Space Mono";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* .carousel-indicators button {
+    color: var(--link) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 16px !important;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 0 5px !important;
+} */
+
+.icon {
+    width: 10% !important;
+    margin: 5px !important;
+}
+
+.icon2 {
+    margin: 5px !important;
+}
+
+.iconFirm {
+    width: 10% !important;
+    margin: 5px !important;
+}
+
+.iconOffice {
+    width: 20% !important;
+    padding: 15px !important;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+}
+
+.iconTime {
+    width: 20% !important;
+    padding: 15px !important;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+}
+
+.iconCircle {
+    width: 20% !important;
+    padding: 15px !important;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+}
+
+.linea-vertical {
+    border-left: 2px solid #1f1b1c !important;
+    height: 40px;
+}
+
+.icon4 {
+    width: 25% !important;
+}
+
+.iconCarousel {
+    width: 12% !important;
+}
+
+.iconFooter {
+    width: 10% !important;
+    padding: 0px !important;
+}
+
+.textIcon {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.titleSection{
+    font-family: "Nunito Sans", sans-serif !important;
+    font-weight: 600;
+    font-size: 35px !important;
+    color: var(--title-color) !important;
+}
+
+.titleSectionWhite{
+    font-family: "Nunito Sans", sans-serif !important;
+    font-weight: 600;
+    font-size: 35px !important;
+    color: var(--text) !important;
+}
+
+.portadaHome {
+    position: relative;
+    background-image: url('../img/imgPortadas/LXG-Hero-1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.icons-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.portadaHome2 {
+    background-image: url('../img/imgPortadas/portadaHome2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain !important;
+    width: 100%;
+    height: auto !important; /* Ajusta la altura automáticamente */
+    min-height: 200px; /* Establece una altura mínima */
+}
+
+.portadaOurApproach {
+    background-color: var(--color7) !important;
+}
+
+.textPrincipalHome{
+    color: var(--link) !important;
+    text-align: center !important;
+    font-family: "Nunito Sans" !important;
+    font-size: 21px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 36px !important; /* 120% */
+}
+
+.textHome2{
+    color: var(--link) !important;
+    text-align: center !important;
+    font-family: "Nunito Sans" !important;
+    font-size: 30px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 36px !important; /* 120% */
+}
+
+.btnLearMoreHome{
+    width: 50% !important;
+}
+
+.whyUs {
+    background-color: var(--color6) !important;
+    color: var(--link) !important;
+}
+
+.vertical-line {
+    border-left: 1px solid black;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* CAROUSEL DE SECCIONES */
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-section {
+    display: none;
+    transition: opacity 0.5s ease-in-out; /* Transición de opacidad */
+}
+
+.carousel-section.show {
+    display: block;
+    opacity: 1; /* Mostrar la sección con opacidad 1 */
+}
+
+.carousel-section.hide {
+    opacity: 0; /* Ocultar la sección con opacidad 0 */
+}
+
+/* --------- */
+
+.ourNumbers{
+    background-color: var(--color3) !important;
+}
+
+.portadaWeAre {
+    background-image: url('../img/imgPortadas/LXG-Home-2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portadaWhatWe1 {
+    background-image: url('../img/imgPortadas/portadaWhatWe.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.portadaWhatWe2 {
+    background-image: url('../img/imgPortadas/portadaWhatWe2.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logoWeAre{
+    width: 100% !important;
+}
+
+.title1{
+    color: var(--text-parrafo) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.titleWhite {
+    color: var(--link);
+    font-family: "Nunito Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.TextBlack1 {
+    color: var(--text-parrafo) !important;
+    font-family: var(--font1) !important;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 28.8px */
+}
+
+.text1 {
+    color: var(--text-parrafo) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 15px !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    line-height: 120% !;
+}
+
+.cultureText {
+    margin-bottom: 5px !important;
+    color: var(--text-parrafo) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.subText {
+    color: var(--text-parrafo) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.subTextWhite {
+    color: var(--link) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.minText{
+    color: var(--parrafo-color) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+
+.minTextWhite{
+    color: var(--link) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.textWhite {
+    color: var(--text) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* SECTION OUR FIRM */
+
+#ourFirm {
+    padding-top: 9% !important;
+}
+
+.portadaOurFirm {
+    background-image: url('../img/imgPortadas/LXG-OF-1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+.footPrint {
+    background-color: var(--color1) !important;
+}
+
+.footPrintContact {
+    background-color: var(--color6) !important;
+}
+
+.titleOurApproach {
+    color: var(--text-parrafo) !important;
+    text-align: center;
+    font-family: "Nunito Sans" !important;
+    font-size: 35px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 66px;
+}
+
+.arrow{
+    width: 8% !important;
+}
+
+.number{
+    padding: 0px !important;
+    margin: 0px !important;
+    margin-bottom: 12% !important;
+    margin-right: 10px !important;
+}
+
+#number2 {
+    width: 50px !important;
+}
+
+.imageSection {
+    margin-bottom: 5% !important;
+}
+
+.sectionImage2 {
+    background-color: var(--section2) !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.sectionFirm {
+    background-color: var(--color6) !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.accordion-button{
+    color: var(--text-parrafo) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 17px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 120% !important;
+}
+
+.accordion-body {
+    color: var(--Grey, #999);
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 9px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+
+.portadaApproach{
+    background-color: var(--color7) !important;
+}
+
+
+/* SECTION BUSINESSES */
+
+#businesses {
+    padding-top: 9% !important;
+}
+
+.portadaBusinesses2{
+    background-image: url('../img/imgPortadas/LXG-Hero-2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portadaCapital {
+    background-image: url('../img/imgPortadas/capital1T.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+}
+
+.iconCapital {
+    padding-right: 10px !important;
+}
+
+.ourPartners {
+    background-color: var(--color1) !important;
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+}
+
+.portadaOffice {
+    background-image: url('../img/imgPortadas/office2T.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+}
+
+.iconOffice2 {
+    padding-right: 10px !important;
+}
+
+.sectionOurFirm2 {
+    background-color: var(--color7) !important;
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+}
+
+.portadaPeople{
+    background-image: url('../img/imgPortadas/portadaPeople.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20% !important;
+    padding-bottom: 20% !important;
+}
+
+/* SECTION PEOPLE */
+
+#people {
+    padding-top: 9% !important;
+}
+
+.people {
+    padding-top: 5% !important;
+}
+
+.portadaPeople2{
+    background-image: url('../img/imgPortadas/LXG-Hero-3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iconPeople {
+    width: 20px !important;
+    margin-right: 6px !important;
+}
+
+.portadaNews{
+    background-image: url('../img/imgPortadas/portadaNews.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20% !important;
+    padding-bottom: 20% !important;
+}
+
+/* SECTION NEWS */
+
+
+/* .tagsMenu{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+} */
+
+.portadaNews3 {
+    background-color: var(--color2) !important;
+    padding-bottom: 9% !important;
+}
+
+.titleNews {
+    color: var(--title-color) !important;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 66px;
+    text-decoration-line: underline;
+}
+
+.imageNews{
+    width: 100% !important;
+}
+
+.bg-custom1{
+    background-color: var(--section2) !important;
+}
+
+.bg-custom2{
+    background-color: var(--color2) !important;
+}
+
+.share-menu {
+    border-top: 1px solid var(--title-color) !important;
+    border-bottom: 1px solid var(--title-color) !important;
+    padding: 5px 0;
+}
+
+.iconShare {
+    border-radius: 64px !important;
+    background-color: var(--title-color) !important;
+    margin: 3px !important;
+    padding: 5px !important;
+}
+
+.card {
+    width: 80% !important;
+    padding: 7% !important;
+}
+
+.card-title {
+    margin-top: 10px !important;
+    color: var(--title-color) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 25px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 110% !important;
+}
+
+.card-text {
+    margin-top: 20px !important;
+    color: var(--text-parrafo) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 15px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 110% !important;
+}
+
+.card-text-date {
+    margin-top: 10px !important;
+    color: var(--text-parrafo) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 110% !important;
+}
+
+.sectionImage3 {
+    background-color: var(--color1) !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.image-container {
+    margin: 0 7% !important;
+}
+
+#btnPrev,
+#btnNext {
+    border: none !important;
+    background-color: transparent !important;
+    background-image: url('../img/Buttons/buttonForward.svg') !important; /* Imagen por defecto */
+    background-size: contain; /* Ajusta el tamaño de la imagen */
+    transition: background-image 0.3s ease; /* Agrega una transición suave */
+}
+
+#btnPrev:hover {
+    background-image: url('../img/Buttons/hoverButtonPrev.png')
+    ; /* Cambia la imagen al pasar el mouse */
+}
+
+#btnNext:hover {
+    background-image: url('../img/Buttons/hoverButtonNext.png'); /* Cambia la imagen al pasar el mouse */
+}
+
+/* EFECTOS A LA PAGE */
+
+.section {
+    transition: opacity 0.5s ease-in-out; /* Transición de 0.5 segundos con suavizado */
+    opacity: 1; /* Inicialmente visible */
+}
+
+.section.hidden {
+    opacity: 0; /* Oculta la sección al cambiar la clase */
+}
+
+
+/* FOOTER */
+
+#footer {
+    background-color: var(--color2) !important;
+}
+
+.full-width-line {
+    margin: 0;
+    padding: 0;
+}
+
+.full-width-line hr {
+    width: 100%;
+    margin: 0;
+    border: none;
+    border-top: 0.8px solid var(--textFooter) !important;
+    opacity: 0.8 !important;
+}
+
+#footerLogin {
+    background-color: var(--section2) !important;
+}
+
+.textFooter {
+    color: var(--textFooter) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 14px !important;
+    text-decoration: none !important;
+}
+
+.subTitleFooter {
+    color: var(--textFooter) !important;
+    font-family: "Roboto" !important;
+    font-weight: bolder !important;
+    font-size: 16px !important;
+    text-decoration: none !important;
+}
+
+#logoFooter {
+    border: none;
+}
+
+.btn2{
+    background-color: transparent !important;
+    font-family: "Space Mono", monospace !important;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    display: flex;
+    padding: 6px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px !important;
+    border: 1px solid var(--color1) !important;
+    color: var(--color1) !important;
+    transition: background-color 0.3s ease, border-color 0.3s ease !important;
+}
+
+.btn2:hover {
+    background-color: var(--color1) !important;
+    color: var(--link) !important;
+}
+
+
+/* MEDIA */
+
+@media (min-width: 280px) {
+
+    .tituloPortada {
+        font-size: 14px !important;
+    }
+
+    .tituloSeccion1 {
+        font-size: 20px !important;
+    }
+
+    .tituloSeccion2 {
+        font-size: 20px !important;
+    }
+
+    .tituloSeccion3 {
+        font-size: 20px !important;
+    }
+
+    .tituloSeccion4 {
+        font-size: 20px !important;
+    }
+
+    .tituloSeccion5 {
+        font-size: 20px !important;
+    }
+
+    .card-text {
+        font-size: 13px !important;
+    }
+
+    .parrafoMayuscula {
+        font-size: 21px !important;
+    }
+
+    .containerLinea {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+
+    .margenAlto {
+        margin-top: 30px;
+    }
+
+    .margenBajo {
+        margin-bottom: 80px;
+    }
+
+    .textoNav1 {
+        font-size: 15px !important;
+    }
+
+    .btnAccesoLoginMobile {
+        height: 45px !important;
+        padding: 15px !important;
+        font-size: 13px !important;
+    }
+
+    .tituloNormal {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 15px !important;
+    }
+
+    .tituloAdmin {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 15px !important;
+    }
+
+    .parrafoContacto {
+        text-align: start;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+    }
+
+    .fa-sort-down {
+        padding: 0 !important;
+        padding-bottom: 10px !important;
+        margin: 0 !important;
+        color: #e7f0fd !important;
+        font-size: 20px !important;
+    }
+
+    .boton-Login {
+        font-size: 13px !important;
+    }
+
+    .nav-item a {
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        line-height: 150% !important;
+        text-transform: uppercase !important;
+    }
+
+    .btnAccesoLoginMobile {
+        font-size: 10px !important;
+        padding: 5px;
+    }
+
+    /* CONTACTO */
+
+    .tituloFooter {
+        font-size: 20px !important;
+    }
+
+    .bottom-border {
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border-radius: 0 !important;
+        border-bottom: 1px solid var(--title-color) !important;
+        background-color: transparent !important;
+    }
+
+    .form-label{
+        color: var(--title-color) !important;
+        font-family: "Roboto" !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        text-decoration: none !important;
+    }
+
+    .form-control{
+        color: var(--textFooter) !important;
+        font-family: "Roboto" !important;
+        font-weight: 300 !important;
+        font-size: 12px !important;
+        text-decoration: none !important;
+    }
+
+    .subtituloContacto {
+        font-size: 17px !important;
+    }
+
+    .parrafoContacto {
+        font-size: 14px !important;
+    }
+
+    .imagenMarca {
+        width: 30px;
+        margin: 5px;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    .portadaHome2 {
+        background-image: url('../img/imgPortadas/portadaHome2.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover !important;
+        width: 100% !important;
+        height: 100vh !important;
+    }
+
+    .portadaWhatWe1 {
+        height: auto !important;
+    }
+    
+    .text-journey {
+        font-size: 20px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+
+    .textAge {
+        font-size: 200px !important;
+    }
+
+    .iconFooter {
+        width: 30% !important;
+        padding: 0px !important;
+    }
+
+    .nav-item a {
+        font-size: 25px !important;
+    }
+
+    .text1 {
+        font-size: 25px !important;
+    }
+
+    .titleWhatWe {
+        padding-bottom: 15% !important;
+    }
+
+    .titleSection{
+        font-size: 40px !important;
+    }
+    
+    .titleSectionWhite{
+        font-size: 48px !important;
+    }
+
+    .titleOurApproach{
+        font-size: 40px !important;
+    }
+
+    .titleNews{
+        font-size: 48px !important;
+    }
+
+    .textPrincipalHome {
+        font-size: 30px !important;
+    }
+
+    .textHome2{
+        font-size: 50px !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        line-height: 60px !important; /* 120% */
+    }
+
+    .icon {
+        width: 3% !important;
+    }
+
+    .portadaWhatWe1 {
+        background-image: none !important;
+    }
+
+    .portadaWhatWe2 {
+        background-image: none !important;
+    }
+
+    .imgHomeCapital {
+        width: 75% !important;
+    }
+
+    .imgCapital1{
+        width: 80% !important;
+    }
+    
+    .imgOffice2{
+        width: 80% !important;
+    }
+
+    .imgHomeOffice {
+        width: 65% !important;
+    }
+
+    .subtitle {
+        font-size: 24px !important;
+    }
+
+    .subText {
+        font-size: 21px !important;
+    }
+
+    .minText {
+        font-size: 15px !important;
+    }
+
+    .sectionLxg{
+        padding-top: 10% !important;
+        padding-bottom: 6% !important;
+    }
+
+    .icon4{
+        width: 23% !important;
+    }
+
+    .card {
+        width: 100% !important;
+        padding: 10% !important;
+    }
+
+    .card-text {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .card-title {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .card-img-top {
+        height: 150px;
+        object-fit: cover; 
+    }
+
+    #footer {
+        padding-top: 4% !important;
+    }
+
+    .arrow{
+        width: 2% !important;
+    }
+
+    #number2 {
+        width: 35px !important;
+    }
+
+    .portadaBusinesses{
+        padding-top: 15% !important;
+        padding-bottom: 15% !important;
+    }
+    
+    .iconPeople {
+        width: 27px !important;
+    }
+
+    .containerPeople {
+        padding-right: 3% !important;
+        padding-left: 3% !important;
+    }
+
+    .portadaNews{
+        padding-top: 15% !important;
+        padding-bottom: 15% !important;
+    }
+
+    .imgNews {
+        height: 400px !important;
+        object-fit: cover;
+    }
+
+    .sectionImage3 {
+        padding-top: 5% !important;
+        padding-bottom: 5% !important;
+    }
+
+    .portadaCapital{
+        background-image: none !important;
+    }
+
+    .ourPartners {
+        padding-top: 5% !important;
+        padding-bottom: 15% !important;
+    }
+
+    .portadaOffice{
+        background-image: none !important;
+    }
+
+    .sectionOurFirm2 {
+        padding-top: 5% !important;
+        padding-bottom: 10% !important;
+    }
+
+    .portadaPeople{
+        padding-top: 15% !important;
+        padding-bottom: 15% !important;
+    }
+
+    share-menu {
+        padding-top: 10% !important;
+        padding-bottom: 10% !important;
+    }
+    
+    .imageNews{
+        height: 500px !important;
+        object-fit: cover;
+    }
+
+    #contactForm {
+        padding-top: 10% !important;
+    }
+
+    .imgContact{
+        width: 80% !important;
+    }
+    
+    .iconCircle {
+        width: 24% !important;
+    }
+
+    .iconOffice {
+        width: 19% !important;
+    }
+
+    .iconTime {
+        width: 20% !important;
+    }
+
+    .accordion-body{
+        font-size: 13px !important;
+    }
+
+    .textIcon {
+        margin-top: 10px !important;
+        font-size: 14px;
+    }
+
+    .paddingForm {
+        padding-bottom: 20% !important;
+    }
+
+    .portadaHome{
+        height: 100vh;
+    }
+
+    .portadaBusinesses2{
+        height: 100vh;
+    }
+
+    #businesses {
+        padding-top: 20% !important;
+    }
+
+    .portadaPeople2{
+        height: 100vh;
+    }
+
+    #people {
+        padding-top: 2% !important;
+    }
+
+    .portadaNews2{
+        height: 100vh;
+    }
+
+    #news {
+        padding-top: 15% !important;
+    }
+
+    #verNews {
+        padding-top: 4% !important;
+    }
+
+    .ourNumbers{
+        padding-top: 5% !important;
+        padding-bottom: 8% !important;
+    }
+}
+
+@media (min-width: 990px) {
+
+    .nav-link {
+        font-size: 13.5px !important;
+    }
+
+    
+
+    .nav-item {
+        margin-right: 5px !important;
+        padding: 5px !important;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+
+    .nav-item a {
+        font-size: 14px !important;
+    }
+
+    .btnAccesoLogin {
+        height: 35px !important;
+        padding: 12px !important;
+        font-size: 11px !important;
+    }
+
+    .nav-item {
+        margin-right: 10px !important;
+    }
+}
+
+@media (min-width: 1280px) {
+
+
+    .nav-item {
+        margin-right: 22px;
+    }
+
+    .nav-item a {
+        font-size: 13px !important;
+    }
+
+    .margenAlto {
+        margin-top: 90px;
+    }
+
+    .marginLoginBottom {
+        margin-bottom: 50px;
+    }
+
+    #owl-demo .item {
+        padding-left: 30px;
+
+    }
+
+
+}
+
+@media (min-width: 1366px) {
+
+    .btnAccesoLogin {
+        height: 20px !important;
+        padding: 5px !important;
+        font-size: 11px !important;
+    }
+
+    .nav-item {
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+
+    .textoNav1 {
+        font-size: 15px !important;
+    }
+}

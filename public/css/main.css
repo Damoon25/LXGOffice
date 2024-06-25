@@ -238,6 +238,7 @@ ul {
 }
 
 .header2 {
+    background-color: var(--link) !important;
     padding-bottom: 3% !important;
 }
 
@@ -614,19 +615,6 @@ a:hover {
     background-image: url('../img/Buttons/hoverButtonNext.png');
 }
 
-.portadaNews2{
-    background-image: url('../img/imgPortadas/LXG-Hero-4.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.portadaInvestors{
-    background-image: url('../img/imgPortadas/LXG-Hero-5.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .carousel-indicators .d-flex {
     position: relative !important;
@@ -685,7 +673,7 @@ a:hover {
 }
 
 .iconOffice {
-    width: 20% !important;
+    width: 40% !important;
     padding: 15px !important;
     padding-top: 0px !important;
     padding-bottom: 10px !important;
@@ -776,6 +764,42 @@ a:hover {
 
 .portadaOurApproach {
     background-color: var(--color7) !important;
+}
+
+.portadaOurApproach2 {
+    background-image: url('../img/imgPortadas/LXG-OA-1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+.portadaCompliance {
+    background-image: url('../img/imgPortadas/LXG-COM-1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+.portadalXGOnline {
+    background-image: url('../img/imgPortadas/LXG-ON-1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+.portadaOurTeam2 {
+    background-image: url('../img/imgPortadas/LXG-OT-1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    height: 100vh !important;
 }
 
 .textPrincipalHome{
@@ -1025,6 +1049,12 @@ a:hover {
     margin: 0px !important;
 }
 
+.sectionApproach {
+    background-color: var(--color6) !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
 .accordion-button{
     color: var(--text-parrafo) !important;
     font-family: "Nunito Sans", sans-serif !important;
@@ -1044,6 +1074,10 @@ a:hover {
 }
 
 .portadaApproach{
+    background-color: var(--color7) !important;
+}
+
+.portadaOurTeam{
     background-color: var(--color7) !important;
 }
 
@@ -1071,7 +1105,7 @@ a:hover {
 }
 
 .iconCapital {
-    padding-right: 10px !important;
+    padding-right: 15px !important;
 }
 
 .ourPartners {
@@ -1087,10 +1121,6 @@ a:hover {
     background-size: contain;
     padding-top: 10% !important;
     padding-bottom: 10% !important;
-}
-
-.iconOffice2 {
-    padding-right: 10px !important;
 }
 
 .sectionOurFirm2 {
@@ -1189,8 +1219,15 @@ a:hover {
 }
 
 .card {
-    width: 80% !important;
-    padding: 7% !important;
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-top: 5% !important;
+    border: none !important;
+}
+
+.card-body {
+    padding: 0px !important;
+    margin: 0px !important;
 }
 
 .card-title {
@@ -1518,10 +1555,6 @@ a:hover {
         font-size: 25px !important;
     }
 
-    .titleWhatWe {
-        padding-bottom: 15% !important;
-    }
-
     .titleSection{
         font-size: 40px !important;
     }
@@ -1598,11 +1631,6 @@ a:hover {
         width: 23% !important;
     }
 
-    .card {
-        width: 100% !important;
-        padding: 10% !important;
-    }
-
     .card-text {
         display: -webkit-box;
         -webkit-line-clamp: 3;
@@ -1615,11 +1643,6 @@ a:hover {
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
         overflow: hidden;
-    }
-
-    .card-img-top {
-        height: 150px;
-        object-fit: cover; 
     }
 
     #footer {
@@ -1641,11 +1664,6 @@ a:hover {
     
     .iconPeople {
         width: 27px !important;
-    }
-
-    .containerPeople {
-        padding-right: 3% !important;
-        padding-left: 3% !important;
     }
 
     .portadaNews{
@@ -1706,10 +1724,6 @@ a:hover {
     
     .iconCircle {
         width: 24% !important;
-    }
-
-    .iconOffice {
-        width: 19% !important;
     }
 
     .iconTime {

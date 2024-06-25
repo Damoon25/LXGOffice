@@ -12,7 +12,7 @@
 
     <main>
         <header class="header2">
-            <?php include("template/header2.php") ?>
+            <?php include("template/headerW.php") ?>
         </header>
         <div class="sectionImage2">
             <div class="container">
@@ -68,7 +68,7 @@
                 </div>
             </div>
         </div>
-        <div id="footPrint" class="footPrintContact paddingTop paddingBottom">
+        <div id="footPrint" class="footPrint paddingTop paddingBottom">
             <div class="container">
                 <div class="col-sm-12 d-flex justify-content-center text-center pt-4">
                     <h2 class="titleSectionWhite">Our Footprint</h2>
@@ -87,19 +87,47 @@
                                             <div class="col-sm-12 d-flex align-items-center">
                                                 <div class="col-sm-2 number">
                                                     <svg width="35" height="35" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                                                        <circle cx="25" cy="25" r="20" fill="white" stroke="#999999" stroke-width="2" />
-                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#999999" font-size="16" font-family="Arial" textLength="100%">1</text>
+                                                        <circle cx="25" cy="25" r="20" fill="#01486B" stroke="#01486B" stroke-width="2" />
+                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#ffffff" font-size="16" font-family="Arial" textLength="100%">1</text>
                                                     </svg>
                                                 </div>
                                                 <div class="col-sm-10">
                                                     <div class="ml-3">
                                                         <h3 class="mb-0 titleWhite">
-                                                            Miami, FL, USA
+                                                            USA
                                                         </h3>
                                                     </div>
                                                     <div>
                                                         <p class="mt-1 minTextWhite">
-                                                            1441 Brickell Av. Suite 1016, Miami, Florida, USA 33131
+                                                            1441 Brickell Ave. Suite 1016
+                                                            Miami, FL, U.S.A. 33131
+                                                            +1 (305) 456-7645
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="row">
+                                            <div class="col-sm-12 d-flex align-items-center">
+                                                <div class="col-sm-2 number">
+                                                    <svg width="35" height="35" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                                        <circle cx="25" cy="25" r="20" fill="#01486B" stroke="#01486B" stroke-width="2" />
+                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#ffffff" font-size="16" font-family="Arial" textLength="100%">2</text>
+                                                    </svg>
+                                                </div>
+                                                <div class="col-sm-10">
+                                                    <div class="ml-3">
+                                                        <h3 class="mb-0 titleWhite">
+                                                            Peru
+                                                        </h3>
+                                                    </div>
+                                                    <div>
+                                                        <p class="mt-1 minTextWhite">
+                                                            Av. Pardo y Aliaga 675. Of. 602
+                                                            San Isidro, Lima, Peru 15073
+                                                            +51 1 500-1470
                                                         </p>
                                                     </div>
                                                 </div>
@@ -111,8 +139,8 @@
                                             <div class="col-sm-12 d-flex align-items-center">
                                                 <div class="col-sm-2 number">
                                                     <svg id="number2" width="35" height="35" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                                                        <circle cx="25" cy="25" r="20" fill="white" stroke="#999999" stroke-width="2" />
-                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#999999" font-size="16" font-family="Arial" textLength="100%">2</text>
+                                                        <circle cx="25" cy="25" r="20" fill="#01486B" stroke="#01486B" stroke-width="2" />
+                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#ffffff" font-size="16" font-family="Arial" textLength="100%">3</text>
                                                     </svg>
                                                 </div>
                                                 <div class="col-sm-10">
@@ -123,8 +151,10 @@
                                                     </div>
                                                     <div>
                                                         <p class="mt-1 minTextWhite">
-                                                            Diagonal 6 11-10 zona 10, Edificio DiagoSeis,
-                                                            Oficina 11-02, Guatemala, Guatemala
+                                                            Diagonal 6 11-10 zona 10
+                                                            Edificio DiagoSeis, Of. 1102
+                                                            Guatemala, Guatemala 01010
+                                                            +502 3064-8619
                                                         </p>
                                                     </div>
                                                 </div>
@@ -136,58 +166,8 @@
                                             <div class="col-sm-12 d-flex align-items-center">
                                                 <div class="col-sm-2 number">
                                                     <svg width="35" height="35" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                                                        <circle cx="25" cy="25" r="20" fill="white" stroke="#999999" stroke-width="2" />
-                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#999999" font-size="16" font-family="Arial" textLength="100%">3</text>
-                                                    </svg>
-                                                </div>
-                                                <div class="col-sm-10">
-                                                    <div class="ml-3">
-                                                        <h3 class="mb-0 titleWhite">
-                                                            Peru
-                                                        </h3>
-                                                    </div>
-                                                    <div>
-                                                        <p class="mt-1 minTextWhite">
-                                                            Av. Felipe Pardo y Aliaga 675,
-                                                            San Isidro, 15073, Lima, Perú
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <div class="row">
-                                            <div class="col-sm-12 d-flex align-items-center">
-                                                <div class="col-sm-2 number">
-                                                    <svg width="35" height="35" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                                                        <circle cx="25" cy="25" r="20" fill="white" stroke="#999999" stroke-width="2" />
-                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#999999" font-size="16" font-family="Arial" textLength="100%">4</text>
-                                                    </svg>
-                                                </div>
-                                                <div class="col-sm-10">
-                                                    <div class="ml-3">
-                                                        <h3 class="mb-0 titleWhite">
-                                                            Chile
-                                                        </h3>
-                                                    </div>
-                                                    <div>
-                                                        <p class="mt-1 minTextWhite">
-                                                            Av. El Golf 82, piso 10. <br>
-                                                            Las Condes, Santiago, Chile.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <div class="row">
-                                            <div class="col-sm-12 d-flex align-items-center">
-                                                <div class="col-sm-2 number">
-                                                    <svg width="35" height="35" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                                                        <circle cx="25" cy="25" r="20" fill="white" stroke="#999999" stroke-width="2" />
-                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#999999" font-size="16" font-family="Arial" textLength="100%">5</text>
+                                                        <circle cx="25" cy="25" r="20" fill="#01486B" stroke="#01486B" stroke-width="2" />
+                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#ffffff" font-size="16" font-family="Arial" textLength="100%">4</text>
                                                     </svg>
                                                 </div>
                                                 <div class="col-sm-10">

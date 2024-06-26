@@ -21,11 +21,11 @@
                                 <img class="icon" src="./public/img/icons/isolationMode6.svg" alt="Isolation Mode">
                             </div>
                             <div class="col-sm-12 d-flex justify-content-center">
-                                <h1 data-aos="zoom-in" class="titleOurApproach" style="color: var(--link) !important;">
+                                <h1 data-aos="zoom-in" class="titleOurApproach" style="color: var(--link) !important; margin-bottom: 50px !important;">
                                     Compliance
                                 </h1>
                             </div>
-                            <div class="col-sm-12 col-lg-6 mx-lg-auto text-center">
+                            <div class="col-sm-12 col-lg-7 mx-lg-auto text-center">
                                 <p class="textWhite">
                                     LXG Family Office´s US company, LXG Wealth Advisory LLC, 
                                     is a registered investment advisor (RIA). 
@@ -34,7 +34,7 @@
                                 </p>
                             </div>
                             <div class="d-flex justify-content-center">
-                                <a href=""><img src="./public/img/Buttons/buttonCompliance.svg" alt="See Our Form Here"></a>
+                                <a href=""><img style="margin-top: 50px !important;" src="./public/img/Buttons/buttonCompliance.svg" alt="See Our Form Here"></a>
                             </div>
                         </div>
                     </div>

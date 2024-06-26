@@ -15,13 +15,13 @@
             <?php include("template/header.php") ?>
             <div class="container">
                 <div class="row">
-                    <div id="ourFirm" class="col-sm-12 paddingBottom">
+                    <div id="home" class="col-sm-12">
                         <div class="container">
                             <div class="d-flex justify-content-center">
                                 <img class="icon" src="./public/img/icons/isolationMode1.svg" alt="Isolation Mode">
                             </div>
                             <div class="col-sm-12 d-flex justify-content-center">
-                                <h1 data-aos="zoom-in" class="titleOurApproach" style="color: var(--link) !important;">
+                                <h1 data-aos="zoom-in" class="titleOurApproach" style="color: var(--link) !important; margin-bottom: 50px !important;">
                                     Firm Overview
                                 </h1>
                             </div>
@@ -33,7 +33,7 @@
                                 </p>
                             </div>
                             <div class="d-flex justify-content-center">
-                                <img class="arrow" src="./public/img/icons/arrow2.svg" alt="Isolation Mode">
+                                <img class="arrow" style="margin-top: 50px !important;" src="./public/img/icons/arrow2.svg" alt="Isolation Mode">
                             </div>
                         </div>
                     </div>

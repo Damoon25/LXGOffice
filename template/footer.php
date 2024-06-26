@@ -33,7 +33,7 @@
                         </a>
                     </div>
                     <div class="col-12 col-md-6 text-center text-md-start mt-3">
-                        <a href="lxgOnline.php">
+                        <a href="online.php">
                             <h2 class="subTitleFooter mb-3">LXG ONLINE</h2>
                         </a>
                     </div>

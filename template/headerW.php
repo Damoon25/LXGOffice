@@ -15,23 +15,23 @@
                 <li class="pt-4 pe-4">
                     <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link fw-light animate__animated animate__backInRight animate__delay-1s animate__fast" href="index.php">HOME</a></button>
                 </li>
-                <li class="pt-4 pe-4">
+                <li class="pt-4 pe-3">
                     <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link fw-light animate__animated animate__backInRight animate__delay-1s animate__fast" href="ourFirm.php">OUR FIRM</a></button>
                 </li>
-                <li class="pt-4 pe-4">
+                <li class="pt-4 pe-3">
                     <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link fw-light animate__animated animate__backInRight animate__delay-1s animate__fast" href="ourApproach.php#ourApproach">OUR APPROACH</a></button>
                 </li>
-                <li class="pt-4 pe-4">
+                <li class="pt-4 pe-3">
                     <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link fw-light animate__animated animate__backInRight animate__delay-1s animate__fast" href="ourTeam.php#team">OUR TEAM</a></button>
                 </li>
-                <li class="pt-4 pe-4">
+                <li class="pt-4 pe-3">
                     <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link fw-light animate__animated animate__backInRight animate__delay-1s animate__fast" href="compliance.php">COMPLIANCE</a></button>
                 </li>
-                <li class="pt-4 pe-4">
+                <li class="pt-4 pe-3">
                     <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link fw-light animate__animated animate__backInRight animate__delay-1s animate__fast" href="contact.php">CONTACT</a></button>
                 </li>
-                <li class="pt-4 pe-4">
-                    <button class="btnOnline"><a class="nav-link" style="font-size: 10px !important; color: #01486B !important;" href="online.php#online">LXG Online</a></button>
+                <li class="pt-4 pe-3">
+                    <a href="online.php"><img width="85%" src="./public/img/Buttons/onlineButtonB.svg" alt="Online"></a>
                 </li>
                 <li class="pt-5 pe-4">
                     <div class="col-sm-12 col-md-12 mt-3 d-flex justify-content-start text-start">
@@ -48,41 +48,27 @@
     </div>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto">
-            <li class="pt-4 pe-4">
-                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" style="color: var(--text-parrafo) !important;"  href="index.php">HOME</a></button>
+            <li class="pt-4 pe-3">
+                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" style="color: var(--text-parrafo) !important;" href="index.php">HOME</a></button>
             </li>
-            <li class="pt-4 pe-4">
-                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" style="color: var(--text-parrafo) !important;"  href="ourFirm.php">OUR FIRM</a></button>
+            <li class="pt-4 pe-3">
+                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" style="color: var(--text-parrafo) !important;" href="ourFirm.php">OUR FIRM</a></button>
             </li>
-            <li class="pt-4 pe-4">
-                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" style="color: var(--text-parrafo) !important;"  href="ourApproach.php">OUR APPROACH</a></button>
+            <li class="pt-4 pe-3">
+                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" style="color: var(--text-parrafo) !important;" href="ourApproach.php">OUR APPROACH</a></button>
             </li>
-            <li class="pt-4 pe-4">
-                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" style="color: var(--text-parrafo) !important;"  href="ourTeam.php">OUR TEAM</a></button>
+            <li class="pt-4 pe-3">
+                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" style="color: var(--text-parrafo) !important;" href="ourTeam.php">OUR TEAM</a></button>
             </li>
-            <li class="pt-4 pe-4">
-                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" style="color: var(--text-parrafo) !important;"  href="compliance.php">COMPLIANCE</a></button>
+            <li class="pt-4 pe-3">
+                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" style="color: var(--text-parrafo) !important;" href="compliance.php">COMPLIANCE</a></button>
             </li>
-            <li class="pt-4 pe-4">
-                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" style="color: var(--text-parrafo) !important;"  href="contact.php">CONTACT</a></button>
+            <li class="pt-4 pe-3">
+                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" style="color: var(--text-parrafo) !important;" href="contact.php">CONTACT</a></button>
             </li>
-            <li class="pt-4 pe-4">
-                <button class="btnOnline"><a class="fw-light" style="color: #01486B !important;" href="online.php#online">LXG Online</a></button>
+            <li class="pt-4 pe-3">
+                <a href="online.php"><img width="85%" src="./public/img/Buttons/onlineButtonB.svg" alt="Online"></a>
             </li>
         </ul>
     </div>
 </nav>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const carouselItems = document.querySelectorAll(".carousel-item");
-
-        carouselItems.forEach((item, index) => {
-            const offcanvasExample = item.querySelector(".offcanvas");
-            const offcanvasId = `offcanvasExample${index + 1}`;
-            offcanvasExample.id = offcanvasId;
-
-            const btnMenu = item.querySelector(".btnMenu");
-            btnMenu.setAttribute("data-bs-target", `#${offcanvasId}`);
-        });
-    });
-</script>

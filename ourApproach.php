@@ -15,17 +15,17 @@
             <?php include("template/header.php") ?>
             <div class="container">
                 <div class="row">
-                    <div id="ourFirm" class="col-sm-12 paddingBottom">
+                    <div id="ourAprroach" class="col-sm-12">
                         <div class="container">
                             <div class="d-flex justify-content-center">
                                 <img class="icon" src="./public/img/icons/isolationMode3.svg" alt="Isolation Mode">
                             </div>
                             <div class="col-sm-12 d-flex justify-content-center">
-                                <h1 data-aos="zoom-in" class="titleOurApproach" style="color: var(--link) !important;">
+                                <h1 data-aos="zoom-in" class="titleOurApproach" style="color: var(--link) !important; margin-bottom: 50px !important;">
                                     Our Approach
                                 </h1>
                             </div>
-                            <div class="col-sm-12 col-lg-6 mx-lg-auto text-center">
+                            <div class="col-sm-12 col-lg-8 mx-lg-auto text-center">
                                 <p class="textWhite">
                                     At LXG Family Office, our dedicated team specializes in providing personalized wealth planning,
                                     investment management, and family-office services. Our approach is centered on holistic advisory,
@@ -35,7 +35,7 @@
                                 </p>
                             </div>
                             <div class="d-flex justify-content-center">
-                                <img class="arrow" src="./public/img/icons/arrow2.svg" alt="Isolation Mode">
+                                <img class="arrow" style="margin-top: 50px !important;" src="./public/img/icons/arrow2.svg" alt="Isolation Mode">
                             </div>
                         </div>
                     </div>

@@ -259,13 +259,12 @@ ul {
 
 .nav-link{
     font-family: "Nunito Sans" !important;
+    padding: 6px 15px !important;
     font-size: 15px !important;
     font-style: normal !important;
     font-weight: 400 !important;
     line-height: 150% !important; /* 22.5px */
     text-transform: uppercase;
-    padding-top: 3px !important;
-    padding-bottom: 3px !important;
 }
 
 @media (min-width: 992px) {
@@ -344,12 +343,11 @@ a:hover {
     padding-top: 15px !important;
 }
 
-/* .btnMenu2{
-    width: 10% !important;
+.btnMenu2{
+    width: 25% !important;
     background-color: transparent !important;
     border: transparent !important;
-    padding-top: 15px !important;
-} */
+}
 
 #btn_atras {
     display: block;
@@ -600,7 +598,8 @@ a:hover {
 }
 
 #home {
-    padding-top: 9% !important;
+    padding-top: 80px !important;
+    padding-bottom: 100px !important;
 }
 
 .prev-button {
@@ -740,8 +739,10 @@ a:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 100vh;
+    width: 100% !important;
+    height: 900px !important;
+    display: inline-block; /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
 .icons-container {
@@ -752,14 +753,29 @@ a:hover {
     gap: 10px;
 }
 
+.arrow-container {
+    position: absolute;
+    bottom: 20px; /* Ajusta según sea necesario */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
 .portadaHome2 {
     background-image: url('../img/imgPortadas/portadaHome2.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain !important;
-    width: 100%;
-    height: auto !important; /* Ajusta la altura automáticamente */
-    min-height: 200px; /* Establece una altura mínima */
+    width: 100% !important;
+    height: auto !important;
+    display: inline-block; /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+#ourAprroach {
+    padding-top: 50px !important;
+    padding-bottom: 100px !important;
 }
 
 .portadaOurApproach {
@@ -772,7 +788,9 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100% !important;
-    height: 100vh !important;
+    height: auto !important;
+    display: inline-block; /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
 .portadaCompliance {
@@ -781,7 +799,9 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100% !important;
-    height: 100vh !important;
+    height: auto !important;
+    display: inline-block; /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
 .portadalXGOnline {
@@ -790,7 +810,9 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100% !important;
-    height: 100vh !important;
+    height: auto !important;
+    display: inline-block; /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
 .portadaOurTeam2 {
@@ -799,7 +821,9 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100% !important;
-    height: 100vh !important;
+    height: auto !important;
+    display: inline-block; /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
 .textPrincipalHome{
@@ -929,16 +953,6 @@ a:hover {
     line-height: 120% !;
 }
 
-.cultureText {
-    margin-bottom: 5px !important;
-    color: var(--text-parrafo) !important;
-    font-family: "Nunito Sans", sans-serif !important;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
-}
-
 .subText {
     color: var(--text-parrafo) !important;
     font-family: "Nunito Sans", sans-serif !important;
@@ -960,7 +974,7 @@ a:hover {
 .minText{
     color: var(--parrafo-color) !important;
     font-family: "Nunito Sans", sans-serif !important;
-    font-size: 18px;
+    font-size: 21px;
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
@@ -970,7 +984,7 @@ a:hover {
 .minTextWhite{
     color: var(--link) !important;
     font-family: "Nunito Sans", sans-serif !important;
-    font-size: 15px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
@@ -979,7 +993,7 @@ a:hover {
 .textWhite {
     color: var(--text) !important;
     font-family: "Nunito Sans", sans-serif !important;
-    font-size: 15px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -988,7 +1002,8 @@ a:hover {
 /* SECTION OUR FIRM */
 
 #ourFirm {
-    padding-top: 9% !important;
+    padding-top: 80px !important;
+    padding-bottom: 100px !important;
 }
 
 .portadaOurFirm {
@@ -997,7 +1012,9 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100% !important;
-    height: 100vh !important;
+    height: auto !important;
+    display: inline-block; /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
 .footPrint {
@@ -1016,10 +1033,6 @@ a:hover {
     font-style: normal;
     font-weight: 700;
     line-height: 66px;
-}
-
-.arrow{
-    width: 8% !important;
 }
 
 .number{
@@ -1223,6 +1236,7 @@ a:hover {
     margin-left: 0px !important;
     margin-top: 5% !important;
     border: none !important;
+    background-color: transparent !important;
 }
 
 .card-body {
@@ -1287,18 +1301,6 @@ a:hover {
 #btnNext:hover {
     background-image: url('../img/Buttons/hoverButtonNext.png'); /* Cambia la imagen al pasar el mouse */
 }
-
-/* EFECTOS A LA PAGE */
-
-.section {
-    transition: opacity 0.5s ease-in-out; /* Transición de 0.5 segundos con suavizado */
-    opacity: 1; /* Inicialmente visible */
-}
-
-.section.hidden {
-    opacity: 0; /* Oculta la sección al cambiar la clase */
-}
-
 
 /* FOOTER */
 
@@ -1517,15 +1519,6 @@ a:hover {
 
 @media (min-width: 768px) {
 
-    .portadaHome2 {
-        background-image: url('../img/imgPortadas/portadaHome2.jpg');
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover !important;
-        width: 100% !important;
-        height: 100vh !important;
-    }
-
     .portadaWhatWe1 {
         height: auto !important;
     }
@@ -1564,7 +1557,7 @@ a:hover {
     }
 
     .titleOurApproach{
-        font-size: 40px !important;
+        font-size: 60px !important;
     }
 
     .titleNews{
@@ -1576,7 +1569,7 @@ a:hover {
     }
 
     .textHome2{
-        font-size: 50px !important;
+        font-size: 60px !important;
         font-style: normal !important;
         font-weight: 600 !important;
         line-height: 60px !important; /* 120% */
@@ -1584,6 +1577,7 @@ a:hover {
 
     .icon {
         width: 3% !important;
+        margin-bottom: 30px !important;
     }
 
     .portadaWhatWe1 {
@@ -1647,10 +1641,6 @@ a:hover {
 
     #footer {
         padding-top: 4% !important;
-    }
-
-    .arrow{
-        width: 2% !important;
     }
 
     #number2 {
@@ -1743,41 +1733,13 @@ a:hover {
         padding-bottom: 20% !important;
     }
 
-    .portadaHome{
-        height: 100vh;
-    }
-
-    .portadaBusinesses2{
-        height: 100vh;
-    }
 
     #businesses {
         padding-top: 20% !important;
     }
 
-    .portadaPeople2{
-        height: 100vh;
-    }
-
     #people {
         padding-top: 2% !important;
-    }
-
-    .portadaNews2{
-        height: 100vh;
-    }
-
-    #news {
-        padding-top: 15% !important;
-    }
-
-    #verNews {
-        padding-top: 4% !important;
-    }
-
-    .ourNumbers{
-        padding-top: 5% !important;
-        padding-bottom: 8% !important;
     }
 }
 

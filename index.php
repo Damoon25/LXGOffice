@@ -18,7 +18,7 @@
                     <div class="row">
                         <div class="col-sm-12 align-self-center">
                             <div class="mb-3 mt-3">
-                                <div class="col-sm-6 col-md-12 mt-3">
+                                <div class="col-sm-6 col-md-12 mt-3" style="padding-top: 7% !important;">
                                     <p class="text-center animate__fadeInLeft animate__animated animate__faster animate__slower textPrincipalHome">
                                         Tailor-made solutions and advice for private clients, <br>
                                         families and family offices.
@@ -36,6 +36,9 @@
                                 <!-- <button class="btnMenu2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
                                     <img src="./public/img/Buttons/menu.svg" alt="Menu">
                                 </button> -->
+                            </div>
+                            <div class="arrow-container position-absolute">
+                                <img class="arrow"  src="./public/img/icons/arrow2.svg" alt="Isolation Mode">
                             </div>
                         </div>
                     </div>
@@ -110,7 +113,7 @@
                 <div class="col-sm-12">
                     <div class="container">
                         <div class="col-sm-6 col-md-6 justify-content-sm-center justify-content-md-start">
-                            <p data-aos="fade-up" data-aos-anchor-placement="top-bottom" style="color: var(--title-color) !important;" class="textHome2 text-center text-md-start">
+                            <p data-aos="fade-up" data-aos-anchor-placement="top-bottom" style="color: var(--title-color) !important; " class="textHome2 text-center text-md-start">
                                 Go forth and <br>
                                 set the world on fire
                             </p>

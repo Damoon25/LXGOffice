@@ -81,7 +81,7 @@
                                         Our clients have a broad range of background and requirements.
                                         We serve families looking to address succession and legacy challenges,
                                         as well as their investment portfolio and asset management objectives.
-                                        <span class="minText fw-lighter mb-4">
+                                        <span class="subText fw-lighter mb-4">
                                             We help family offices invest in specific asset classes more efficiently.
                                             We also support private clients who have specific needs as entrepreneurs,
                                             professionals or corporate executives looking to best manage their savings for the long term.
@@ -90,7 +90,7 @@
                                         </span>
                                     </p>
                                 </div>
-                                <div class="col-sm-12 col-md-5 d-md-flex justify-content-center text-center text-md-start justify-content-md-start mb-3">
+                                <div class="col-sm-12 col-md-5 d-md-flex justify-content-center text-center text-md-start justify-content-md-start mt-5 mb-3">
                                     <a href="../LXG/ourApproach.php#ourApproach"><img src="./public/img/Buttons/buttonLearnMore2.svg" alt="Learn More"></a>
                                 </div>
                             </div>

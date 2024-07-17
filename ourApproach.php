@@ -34,9 +34,6 @@
                                     ensuring that your best interests remain at the forefront with no conflicts of interest in the process.
                                 </p>
                             </div>
-                            <div class="d-flex justify-content-center">
-                                <img class="arrow" style="margin-top: 50px !important;" src="./public/img/icons/arrow2.svg" alt="Isolation Mode">
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -86,13 +83,13 @@
                     </div>
                 </div>
                 <div class="container paddingTop paddingBottom">
-                    <div class="row">
+                    <div class="row align-self-start">
                         <!-- Primera columna -->
-                        <div class="col-sm-12 col-md-6 d-flex mb-5">
-                            <div class="d-flex align-items-center flex-column justify-content-center text-center text-md-start flex-md-row mt-3 mt-md-0">
-                                <img class="iconCapital mb-3 mb-md-0" src="./public/img/icons/lupa.svg" alt="Icono lupa">
+                        <div class="col-sm-12 col-md-6 d-flex mb-5 align-self-start">
+                            <div class="d-flex align-items-center flex-column flex-md-row justify-content-center text-center text-md-start align-self-start mt-3 mt-md-0">
+                                <img class="iconCapital p-0" src="./public/img/icons/lupa.svg" alt="Icono lupa">
                                 <div class="flex-column ms-3">
-                                    <p class="subText fw-bold">
+                                    <p class="subText fw-bold m-0">
                                         Review of Existing Wealth Planning Structures and Investment Portfolios:
                                     </p>
                                     <p class="minText fw-light">
@@ -103,9 +100,9 @@
                             </div>
                         </div>
                         <!-- Segunda columna -->
-                        <div class="col-sm-12 col-md-6 d-flex mb-5">
+                        <div class="col-sm-12 col-md-6 d-flex mb-5 align-self-start">
                             <div class="d-flex align-items-center flex-column justify-content-center text-center text-md-start flex-md-row mt-3 mt-md-0">
-                                <img class="iconCapital mb-3 mb-md-0" src="./public/img/icons/msj.svg" alt="Icono mensaje">
+                                <img class="iconCapital2 mb-3 mb-md-0" src="./public/img/icons/msj.svg" alt="Icono mensaje">
                                 <div class="flex-column ms-3">
                                     <p class="subText fw-bold">
                                         Wealth and Succession Planning Advisory:
@@ -120,42 +117,9 @@
                     </div>
                     <div class="row">
                         <!-- Tercera columna -->
-                        <div class="col-sm-12 col-md-6 d-flex mb-5">
+                        <div class="col-sm-12 col-md-6 d-flex mb-5 align-self-start">
                             <div class="d-flex align-items-center flex-column justify-content-center text-center text-md-start flex-md-row mt-3 mt-md-0">
-                                <img class="iconCapital mb-3 mb-md-0" src="./public/img/icons/circle.svg" alt="Icono círculo">
-                                <div class="flex-column ms-3">
-                                    <p class="subText fw-bold">
-                                        Alternative Investment Program:
-                                    </p>
-                                    <p class="minText fw-light">
-                                        We carry out a disciplined, programmatic approach to planning and implementing
-                                        an alternative investment program to diversify and enhance your portfolio.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Cuarta columna -->
-                        <div class="col-sm-12 col-md-6 d-flex mb-5">
-                            <div class="d-flex align-items-center flex-column justify-content-center text-center text-md-start flex-md-row mt-3 mt-md-0">
-                                <img class="iconCapital mb-3 mb-md-0" src="./public/img/icons/escudo.svg" alt="Icono escudo">
-                                <div class="flex-column ms-3">
-                                    <p class="subText fw-bold">
-                                        Private Investments Advisory:
-                                    </p>
-                                    <p class="minText fw-light">
-                                        We continuously analyze private investment opportunities and offer personalized
-                                        support in evaluating and executing investments,
-                                        including private market transactions and divestments.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- Quinta columna -->
-                        <div class="col-sm-12 col-md-6 d-flex mb-5">
-                            <div class="d-flex align-items-center flex-column justify-content-center text-center text-md-start flex-md-row mt-3 mt-md-0">
-                                <img class="iconCapital mb-3 mb-md-0" src="./public/img/icons/temporizador.svg" alt="Icono temporizador">
+                                <img class="iconCapital3 mb-3 mb-md-0" src="./public/img/icons/temporizador.svg" alt="Icono temporizador">
                                 <div class="flex-column ms-3">
                                     <p class="subText fw-bold">
                                         Risk Profile Determination and Development of Investment Policy Statements:
@@ -168,10 +132,10 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Sexta columna -->
-                        <div class="col-sm-12 col-md-6 d-flex mb-5">
+                        <!-- Cuarta columna -->
+                        <div class="col-sm-12 col-md-6 d-flex mb-5 align-self-start">
                             <div class="d-flex align-items-center flex-column justify-content-center text-center text-md-start flex-md-row mt-3 mt-md-0">
-                                <img class="iconCapital mb-3 mb-md-0" src="./public/img/icons/lista.svg" alt="Icono lista">
+                                <img class="iconCapital5 mb-3 mb-md-0" src="./public/img/icons/lista.svg" alt="Icono lista">
                                 <div class="flex-column ms-3">
                                     <p class="subText fw-bold">
                                         Investment Portfolio Supervision and Reporting:
@@ -186,9 +150,25 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12 col-md-6 d-flex mb-5">
+                        <!-- Quinta columna -->
+                        <div class="col-sm-12 col-md-6 d-flex mb-5 align-self-start">
                             <div class="d-flex align-items-center flex-column justify-content-center text-center text-md-start flex-md-row mt-3 mt-md-0">
-                                <img class="iconCapital mb-3 mb-md-0" src="./public/img/icons/maleta.svg" alt="Icono Maleta">
+                                <img class="iconCapital4 mb-3 mb-md-0" src="./public/img/icons/circle.svg" alt="Icono círculo">
+                                <div class="flex-column ms-3">
+                                    <p class="subText fw-bold">
+                                        Alternative Investment Program:
+                                    </p>
+                                    <p class="minText fw-light">
+                                        We carry out a disciplined, programmatic approach to planning and implementing
+                                        an alternative investment program to diversify and enhance your portfolio.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sexta columna -->
+                        <div class="col-sm-12 col-md-6 d-flex  align-self-start">
+                            <div class="d-flex align-items-center flex-column justify-content-center text-center text-md-start flex-md-row mt-3 mt-md-0">
+                                <img class="iconCapital6 mb-3 mb-md-0" src="./public/img/icons/maleta.svg" alt="Icono Maleta">
                                 <div class="flex-column ms-3">
                                     <p class="subText fw-bold">
                                         Investment Portfolio Design, Implementation,
@@ -198,6 +178,23 @@
                                         Once the risk and goal parameters are established, we define the optimal asset allocation,
                                         selecting the best custodian and financial service provider, and source the ideal investment instruments
                                         for your unique requirements and objectives.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 d-flex mb-5 align-self-start">
+                            <div class="d-flex align-items-center flex-column justify-content-center text-center text-md-start flex-md-row mt-3 mt-md-0">
+                                <img class="iconCapital7 mb-3 mb-md-0" src="./public/img/icons/escudo.svg" alt="Icono escudo">
+                                <div class="flex-column ms-3">
+                                    <p class="subText fw-bold">
+                                        Private Investments Advisory:
+                                    </p>
+                                    <p class="minText fw-light">
+                                        We continuously analyze private investment opportunities and offer personalized
+                                        support in evaluating and executing investments,
+                                        including private market transactions and divestments.
                                     </p>
                                 </div>
                             </div>

@@ -22,40 +22,8 @@
     <script src="../public/css/Hover-master/css/hover.css"></script>
     <!-- GLightbox CSS -->
     <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
-    <script>
-        $(document).ready(function() {
-            // Inicializa el carrusel
-            $('#carouselNovedades').carousel();
-
-            // Maneja el clic en el botón de anterior
-            $('#btnPrev').on('click', function() {
-                $('#carouselNovedades').carousel('prev');
-            });
-
-            // Maneja el clic en el botón de siguiente
-            $('#btnNext').on('click', function() {
-                $('#carouselNovedades').carousel('next');
-            });
-        });
-
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-
-                const target = document.querySelector(this.getAttribute('href'));
-
-                // Oculta todas las secciones
-                document.querySelectorAll('.section').forEach(section => {
-                    section.classList.add('hidden');
-                });
-
-                // Muestra la sección objetivo después de un breve retraso
-                setTimeout(() => {
-                    target.classList.remove('hidden');
-                }, 50);
-            });
-        })
-    </script>
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- Enlaces a los archivos de Owl Carousel -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">

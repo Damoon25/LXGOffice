@@ -740,9 +740,7 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100% !important;
-    height: 900px !important;
-    display: inline-block; /* Permite que el ancho se ajuste al contenido */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    height: auto !important;
 }
 
 .icons-container {
@@ -920,83 +918,119 @@ a:hover {
 .title1{
     color: var(--text-parrafo) !important;
     font-family: "Nunito Sans", sans-serif !important;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-size: 22px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
 }
 
 .titleWhite {
-    color: var(--link);
-    font-family: "Nunito Sans";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    color: var(--link) !important;
+    font-family: "Nunito Sans" !important;
+    font-size: 22px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
 }
 
 .TextBlack1 {
     color: var(--text-parrafo) !important;
     font-family: var(--font1) !important;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%; /* 28.8px */
+    font-size: 24px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 120% !important; /* 28.8px */
 }
 
 .text1 {
     color: var(--text-parrafo) !important;
     font-family: "Nunito Sans", sans-serif !important;
-    font-size: 15px !important;
+    font-size: 24px !important;
     font-style: normal !important;
     font-weight: 300 !important;
-    line-height: 120% !;
+    line-height: 120% !important;
+}
+
+.textTeam {
+    color: var(--text-parrafo) !important;
+    font-family: "Nunito Sans" !important;
+    font-size: 24px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+}
+
+.textTeamSub {
+    color: var(--text-parrafo) !important;
+    font-family: "Nunito Sans" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+}
+
+.text2 {
+    color: var(--text-parrafo) !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+
+.textCalendar {
+    color: var(--text-parrafo) !important;
+    font-family: var(--font1) !important;
+    font-size: 33px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 120% !important;
 }
 
 .subText {
     color: var(--text-parrafo) !important;
     font-family: "Nunito Sans", sans-serif !important;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
+    font-size: 15px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 120% !important;
 }
 
 .subTextWhite {
     color: var(--link) !important;
     font-family: "Nunito Sans", sans-serif !important;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
+    font-size: 15px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 120% !important;
 }
 
 .minText{
     color: var(--parrafo-color) !important;
     font-family: "Nunito Sans", sans-serif !important;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
+    font-size: 21px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 120% !important;
 }
 
 
 .minTextWhite{
     color: var(--link) !important;
     font-family: "Nunito Sans", sans-serif !important;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 120% !important;
 }
 
 .textWhite {
     color: var(--text) !important;
     font-family: "Nunito Sans", sans-serif !important;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
 }
 
 /* SECTION OUR FIRM */

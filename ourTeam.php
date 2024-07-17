@@ -34,19 +34,15 @@
                                     Merrill Lynch, Credicorp, Santander, Ernst & Young, IDC Group, EFG, and Estudio Rebaza, Alcazar y de las Casas.
                                 </p>
                             </div>
-                            <div class="d-flex justify-content-center">
-                                <img class="arrow" style="margin-top: 50px !important;" src="./public/img/icons/arrow2.svg" alt="Isolation Mode">
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="col-sm-12 col-md-6 text-center text-md-start">
+            <div class="col-sm-12  text-center text-md-start">
                 <h2 class="titleSection text-center text-md-start paddingTop">
-                    Senior Advisors - <br>
-                    Your Trusted Partners
+                    Senior Advisors - Your Trusted Partners
                 </h2>
                 <p class="subText text-start">
                     Our Senior Advisors are more than just financial experts;
@@ -62,46 +58,44 @@
                 <div class="row mt-5">
                     <div class="col-sm-12 col-md-6">
                         <div class="card">
-                            <a href="./public/img/people/TEAM-1-EX.jpg" class="glightbox">
-                                <img src="./public/img/people/team1.png" alt="team 1" class="card-img-top">
+                            <img src="./public/img/people/team1.png" alt="team 1" class="card-img-top">
+                            <a href="./public/img/people/TEAM-1-EX.jpg" class="subText mt-3 glightbox  mb-3">
+                                Bio
                             </a>
-                            <div class="card-body mt-3">
-                                <h2 class="text1 fw-bold mb-2">
-                                    Félix Segura
+                            <div class="card-body mt-1">
+                                <h2 class="textTeam  mb-2">
+                                    Felix Segura
                                 </h2>
-                                <p class="subText fw-bold mb-3">
+                                <p class="textTeamSub  mb-3">
                                     Managing Partner & Senior Advisor
                                 </p>
-                                <p class="subText fw-semibold mb-4">
+                                <p class="textTeamSub  fw-semibold mb-4">
                                     Location: Peru / U.S.
                                 </p>
                                 <div class="col-sm-12 col-md-12 mt-3 d-flex justify-content-start text-start">
-                                    <a class="iconPeople" href=""><img src="./public/img/icons/phone.svg" alt="Telefono"></a>
-                                    <a class="iconPeople" href=""><img src="./public/img/icons/pin.svg" alt="Ubicación"></a>
-                                    <a class="iconPeople" href="mailto:martin.farina@lxgcapital.com"><img src="./public/img/icons/mail.svg" alt="Mail"></a>
+                                    <a class="iconPeople" href="mailto:felix.segura@lxgmfo.com"><img src="./public/img/icons/mail.svg" alt="Mail"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <div class="card">
-                            <a href="./public/img/people/TEAM-2-EX.jpg" class="glightbox">
-                                <img src="./public/img/people/team2.png" alt="team 2" class="card-img-top">
+                            <img src="./public/img/people/team2.png" alt="team 1" class="card-img-top">
+                            <a href="./public/img/people/TEAM-2-EX.jpg" class="subText mt-3 glightbox  mb-3">
+                                Bio
                             </a>
-                            <div class="card-body mt-3">
-                                <h2 class="text1 fw-bold mb-2">
+                            <div class="card-body mt-1">
+                                <h2 class="textTeam  mb-2">
                                     Pablo Luzardi
                                 </h2>
-                                <p class="subText fw-bold mb-3">
+                                <p class="textTeamSub   mb-3">
                                     Senior Advisor
                                 </p>
-                                <p class="subText fw-semibold mb-4">
+                                <p class="textTeamSub  fw-semibold mb-4">
                                     Location: Argentina
                                 </p>
                                 <div class="col-sm-12 col-md-12 mt-3 d-flex justify-content-start text-start">
-                                    <a class="iconPeople" href=""><img src="./public/img/icons/phone.svg" alt="Telefono"></a>
-                                    <a class="iconPeople" href=""><img src="./public/img/icons/pin.svg" alt="Ubicación"></a>
-                                    <a class="iconPeople" href="mailto:martin.farina@lxgcapital.com"><img src="./public/img/icons/mail.svg" alt="Mail"></a>
+                                    <a class="iconPeople" href="mailto:pablo.luzardi@lxgmfo.com"><img src="./public/img/icons/mail.svg" alt="Mail"></a>
                                 </div>
                             </div>
                         </div>
@@ -110,46 +104,44 @@
                 <div class="row mt-5">
                     <div class="col-sm-12 col-md-6">
                         <div class="card">
-                            <a href="./public/img/people/TEAM-3-EX.jpg" class="glightbox">
-                                <img src="./public/img/people/team3.png" alt="team 3" class="card-img-top">
+                            <img src="./public/img/people/team3.png" alt="team 1" class="card-img-top">
+                            <a href="./public/img/people/TEAM-3-EX.jpg" class="subText mt-3 glightbox  mb-3">
+                                Bio
                             </a>
-                            <div class="card-body mt-3">
-                                <h2 class="text1 fw-bold mb-2">
+                            <div class="card-body mt-1">
+                                <h2 class="textTeam  mb-2">
                                     Rafael Isola
                                 </h2>
-                                <p class="subText fw-bold mb-3">
+                                <p class="textTeamSub   mb-3">
                                     Senior Advisor
                                 </p>
-                                <p class="subText fw-semibold mb-4">
+                                <p class="textTeamSub  fw-semibold mb-4">
                                     Location: US
                                 </p>
                                 <div class="col-sm-12 col-md-12 mt-3 d-flex justify-content-start text-start">
-                                    <a class="iconPeople" href=""><img src="./public/img/icons/phone.svg" alt="Telefono"></a>
-                                    <a class="iconPeople" href=""><img src="./public/img/icons/pin.svg" alt="Ubicación"></a>
-                                    <a class="iconPeople" href="mailto:martin.farina@lxgcapital.com"><img src="./public/img/icons/mail.svg" alt="Mail"></a>
+                                    <a class="iconPeople" href="mailto:rafael.isola@lxgmfo.com"><img src="./public/img/icons/mail.svg" alt="Mail"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <div class="card">
-                            <a href="./public/img/people/TEAM-4-EX.jpg" class="glightbox">
-                                <img src="./public/img/people/team4.png" alt="team 4" class="card-img-top">
+                            <img src="./public/img/people/team4.png" alt="team 1" class="card-img-top">
+                            <a href="./public/img/people/TEAM-4-EX.jpg" class="subText mt-3 glightbox  mb-3">
+                                Bio
                             </a>
-                            <div class="card-body mt-3">
-                                <h2 class="text1 fw-bold mb-2">
+                            <div class="card-body mt-1">
+                                <h2 class="textTeam  mb-2">
                                     Salvador Biguria
                                 </h2>
-                                <p class="subText fw-bold mb-3">
+                                <p class="textTeamSub   mb-3">
                                     Senior Advisor
                                 </p>
-                                <p class="subText fw-semibold mb-4">
+                                <p class="textTeamSub  fw-semibold mb-4">
                                     Location: Guatemala
                                 </p>
                                 <div class="col-sm-12 col-md-12 mt-3 d-flex justify-content-start text-start">
-                                    <a class="iconPeople" href=""><img src="./public/img/icons/phone.svg" alt="Telefono"></a>
-                                    <a class="iconPeople" href=""><img src="./public/img/icons/pin.svg" alt="Ubicación"></a>
-                                    <a class="iconPeople" href="mailto:martin.farina@lxgcapital.com"><img src="./public/img/icons/mail.svg" alt="Mail"></a>
+                                    <a class="iconPeople" href="mailto:sbiguria@lxgmfo.com"><img src="./public/img/icons/mail.svg" alt="Mail"></a>
                                 </div>
                             </div>
                         </div>
@@ -158,50 +150,48 @@
                 <div class="row mt-5">
                     <div class="col-sm-12 col-md-6">
                         <div class="card">
-                            <a href="./public/img/people/TEAM-5-EX.jpg" class="glightbox">
-                                <img src="./public/img/people/team5.png" alt="team 5" class="card-img-top">
+                            <img src="./public/img/people/team5.png" alt="team 1" class="card-img-top">
+                            <a href="./public/img/people/TEAM-5-EX.jpg" class="subText mt-3 glightbox  mb-3">
+                                Bio
                             </a>
-                            <div class="card-body mt-3">
-                                <h2 class="text1 fw-bold mb-2">
+                            <div class="card-body mt-1">
+                                <h2 class="textTeam  mb-2">
                                     Carlos Palacios
                                 </h2>
-                                <p class="subText fw-bold mb-3">
+                                <p class="textTeamSub mb-3">
                                     Senior Advisor
                                 </p>
-                                <p class="subText fw-semibold mb-4">
+                                <p class="textTeamSub  fw-semibold mb-4">
                                     Location: Peru
                                 </p>
                                 <div class="col-sm-12 col-md-12 mt-3 d-flex justify-content-start text-start">
-                                    <a class="iconPeople" href=""><img src="./public/img/icons/phone.svg" alt="Telefono"></a>
-                                    <a class="iconPeople" href=""><img src="./public/img/icons/pin.svg" alt="Ubicación"></a>
-                                    <a class="iconPeople" href="mailto:martin.farina@lxgcapital.com"><img src="./public/img/icons/mail.svg" alt="Mail"></a>
+                                    <a class="iconPeople" href="mailto:carlos.palacios@lxgmfo.com"><img src="./public/img/icons/mail.svg" alt="Mail"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <div class="card">
-                            <a href="./public/img/people/TEAM-6-EX.jpg" class="glightbox">
-                                <img src="./public/img/people/team6.png" alt="team 6" class="card-img-top">
+                            <img src="./public/img/people/team6.png" alt="team 1" class="card-img-top">
+                            <a href="./public/img/people/TEAM-6-EX.jpg" class="subText mt-3 glightbox  mb-3">
+                                Bio
                             </a>
-                            <div class="card-body mt-3">
-                                <h2 class="text1 fw-bold mb-2">
-                                    Bettina Gorra
+                            <div class="card-body mt-1">
+                                <h2 class="textTeam  mb-2">
+                                    Bettina Gorra*
                                 </h2>
-                                <p class="subText fw-bold mb-3">
+                                <p class="textTeamSub mb-3">
                                     Head of Wealth Planning
                                 </p>
-                                <p class="subText fw-semibold mb-4">
+                                <p class="textTeamSub  fw-semibold mb-4">
                                     Location: Peru
                                 </p>
                                 <div class="col-sm-12 col-md-12 mt-3 d-flex justify-content-start text-start">
-                                    <a class="iconPeople" href=""><img src="./public/img/icons/phone.svg" alt="Telefono"></a>
-                                    <a class="iconPeople" href=""><img src="./public/img/icons/pin.svg" alt="Ubicación"></a>
-                                    <a class="iconPeople" href="mailto:martin.farina@lxgcapital.com"><img src="./public/img/icons/mail.svg" alt="Mail"></a>
+                                    <a class="iconPeople" href="mailto:bettina.gorra@lxgmfo.com"><img src="./public/img/icons/mail.svg" alt="Mail"></a>
                                 </div>
-                                <!-- <p class="minText fw-lighter mb-4">
+                                <p class="minText fw-lighter mb-4">
                                     *Not an investment advisor at LXG Wealth Advisory
-                                </p> -->
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -223,14 +213,17 @@
                             <div class="card">
                                 <img src="./public/img/people/teamB1.png" alt="team 1">
                                 <div class="card-body mt-3" style="background-color: transparent !important;">
-                                    <h2 class="text1 fw-bold mb-2">
-                                        Luciana Ramírez
+                                    <h2 class="textTeam  mb-2">
+                                        Luciana Ramírez*
                                     </h2>
-                                    <p class="subText fw-bold mb-3">
+                                    <p class="textTeamSub mb-3">
                                         Senior Associate– Wealth Planning
                                     </p>
-                                    <p class="subText fw-semibold mb-4">
+                                    <p class="textTeamSub  fw-semibold mb-4">
                                         Location: Peru
+                                    </p>
+                                    <p class="minText fw-lighter mb-4">
+                                        *Not an investment advisor at LXG Wealth Advisory
                                     </p>
                                 </div>
                             </div>
@@ -239,13 +232,13 @@
                             <div class="card">
                                 <img src="./public/img/people/teamB2.png" alt="team 2">
                                 <div class="card-body mt-3" style="background-color: transparent !important;">
-                                    <h2 class="text1 fw-bold mb-2">
+                                    <h2 class="textTeam  mb-2">
                                         Valeria Alvarado
                                     </h2>
-                                    <p class="subText fw-bold mb-3">
+                                    <p class="textTeamSub mb-3">
                                         Associate Advisor
                                     </p>
-                                    <p class="subText fw-semibold mb-4">
+                                    <p class="textTeamSub  fw-semibold mb-4">
                                         Location: Peru
                                     </p>
                                 </div>
@@ -253,15 +246,15 @@
                         </div>
                         <div class="col-sm-12 col-md-4">
                             <div class="card">
-                                <img src="./public/img/people/teamB3.png" alt="team 3">
+                                <img src="./public/img/people/teamB4.png" alt="team 4">
                                 <div class="card-body mt-3" style="background-color: transparent !important;">
-                                    <h2 class="text1 fw-bold mb-2">
-                                        Katherine Pérez
+                                    <h2 class="textTeam  mb-2">
+                                        Alonzo Vílchez
                                     </h2>
-                                    <p class="subText fw-bold mb-3">
+                                    <p class="textTeamSub mb-3">
                                         Associate Advisor
                                     </p>
-                                    <p class="subText fw-semibold mb-4">
+                                    <p class="textTeamSub  fw-semibold mb-4">
                                         Location: Peru
                                     </p>
                                 </div>
@@ -271,31 +264,15 @@
                     <div class="row mt-5">
                         <div class="col-sm-12 col-md-4">
                             <div class="card">
-                                <img src="./public/img/people/teamB4.png" alt="team 4">
-                                <div class="card-body mt-3" style="background-color: transparent !important;">
-                                    <h2 class="text1 fw-bold mb-2">
-                                        Alonzo Vílchez
-                                    </h2>
-                                    <p class="subText fw-bold mb-3">
-                                        Associate Advisor
-                                    </p>
-                                    <p class="subText fw-semibold mb-4">
-                                        Location: Peru
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4">
-                            <div class="card">
                                 <img src="./public/img/people/teamB5.png" alt="team 5">
                                 <div class="card-body mt-3" style="background-color: transparent !important;">
-                                    <h2 class="text1 fw-bold mb-2">
+                                    <h2 class="textTeam  mb-2">
                                         Humberto Rada
                                     </h2>
-                                    <p class="subText fw-bold mb-3">
+                                    <p class="textTeamSub mb-3">
                                         Associate Advisor
                                     </p>
-                                    <p class="subText fw-semibold mb-4">
+                                    <p class="textTeamSub  fw-semibold mb-4">
                                         Location: Peru
                                     </p>
                                 </div>
@@ -305,13 +282,29 @@
                             <div class="card">
                                 <img src="./public/img/people/teamB6.png" alt="team 6">
                                 <div class="card-body mt-3" style="background-color: transparent !important;">
-                                    <h2 class="text1 fw-bold mb-2">
+                                    <h2 class="textTeam  mb-2">
                                         Kathleen Fernández
                                     </h2>
-                                    <p class="subText fw-bold mb-3">
+                                    <p class="textTeamSub mb-3">
                                         Associate Advisor
                                     </p>
-                                    <p class="subText fw-semibold mb-4">
+                                    <p class="textTeamSub  fw-semibold mb-4">
+                                        Location: Peru
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card">
+                                <img src="./public/img/people/teamB7.png" alt="team 7">
+                                <div class="card-body mt-3" style="background-color: transparent !important;">
+                                    <h2 class="textTeam  mb-2">
+                                        Lucía Atoche
+                                    </h2>
+                                    <p class="textTeamSub mb-3">
+                                        Administrative and Talent Support Manager
+                                    </p>
+                                    <p class="textTeamSub  fw-semibold mb-4">
                                         Location: Peru
                                     </p>
                                 </div>
@@ -321,15 +314,100 @@
                     <div class="row mt-5">
                         <div class="col-sm-12 col-md-4">
                             <div class="card">
-                                <img src="./public/img/people/teamB7.png" alt="team 7">
+                                <img src="./public/img/people/teamB8.jpg" alt="team 8">
                                 <div class="card-body mt-3" style="background-color: transparent !important;">
-                                    <h2 class="text1 fw-bold mb-2">
-                                        Lucía Atoche
+                                    <h2 class="textTeam  mb-2">
+                                        Aldo Oyadomari
                                     </h2>
-                                    <p class="subText fw-bold mb-3">
-                                        Administrative and Talent Support Manager
+                                    <p class="textTeamSub mb-3">
+                                        Head of Operations & Advisor
                                     </p>
-                                    <p class="subText fw-semibold mb-4">
+                                    <p class="textTeamSub  fw-semibold mb-4">
+                                        Location: Peru
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card">
+                                <img src="./public/img/people/teamB9.jpg" alt="team 9">
+                                <div class="card-body mt-3" style="background-color: transparent !important;">
+                                    <h2 class="textTeam  mb-2">
+                                        Mario Mujica
+                                    </h2>
+                                    <p class="textTeamSub mb-3">
+                                        Associate Advisor
+                                    </p>
+                                    <p class="textTeamSub  fw-semibold mb-4">
+                                        Location: Peru
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card">
+                                <img src="./public/img/people/teamB10.jpg" alt="team 10">
+                                <div class="card-body mt-3" style="background-color: transparent !important;">
+                                    <h2 class="textTeam  mb-2">
+                                        Alia Gonzalez
+                                    </h2>
+                                    <p class="textTeamSub mb-3">
+                                        Associate Advisor
+                                    </p>
+                                    <p class="textTeamSub  fw-semibold mb-4">
+                                        Location: Peru
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card">
+                                <img src="./public/img/people/teamB11.jpg" alt="team 11">
+                                <div class="card-body mt-3" style="background-color: transparent !important;">
+                                    <h2 class="textTeam  mb-2">
+                                        Americo Choque
+                                    </h2>
+                                    <p class="textTeamSub mb-3">
+                                        Associate Advisor
+                                    </p>
+                                    <p class="textTeamSub  fw-semibold mb-4">
+                                        Location: Peru
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card">
+                                <img src="./public/img/people/teamB12.jpg" alt="team 12">
+                                <div class="card-body mt-3" style="background-color: transparent !important;">
+                                    <h2 class="textTeam  mb-2">
+                                        Alejandra Morante*
+                                    </h2>
+                                    <p class="textTeamSub mb-3">
+                                        Senior Associate - Wealth Planning
+                                    </p>
+                                    <p class="textTeamSub  fw-semibold mb-4">
+                                        Location: Peru
+                                    </p>
+                                    <p class="minText fw-lighter mb-4">
+                                        *Not an investment advisor at LXG Wealth Advisory
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card">
+                                <img src="./public/img/people/teamB13.jpg" alt="team 13">
+                                <div class="card-body mt-3" style="background-color: transparent !important;">
+                                    <h2 class="textTeam  mb-2">
+                                        Andre de la Peña
+                                    </h2>
+                                    <p class="textTeamSub mb-3">
+                                        Operations & Data Management
+                                    </p>
+                                    <p class="textTeamSub  fw-semibold mb-4">
                                         Location: Peru
                                     </p>
                                 </div>

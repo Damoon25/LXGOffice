@@ -38,7 +38,7 @@
                                 </button> -->
                             </div>
                             <div class="arrow-container position-absolute">
-                                <img class="arrow"  src="./public/img/icons/arrow2.svg" alt="Isolation Mode">
+                                <img class="arrow" src="./public/img/icons/arrow2.svg" alt="Isolation Mode">
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                             always focusing on our clients’ best interests,
                             while having a transparent structure that avoids potential conflicts.
                         </p>
-                        <div class="mt-3 text-center text-md-start">
+                        <div class="mt-5 text-center text-md-start">
                             <a href="../LXG/ourFirm.php"><img class="hvr-grow animate__animated animate__heartBeat animate__delay-0s animate__fast" src="./public/img/Buttons/buttonLearnMoreT.svg" alt="Learn More"></a>
                         </div>
                     </div>
@@ -81,16 +81,14 @@
                                         Our clients have a broad range of background and requirements.
                                         We serve families looking to address succession and legacy challenges,
                                         as well as their investment portfolio and asset management objectives.
-                                    </p>
-                                    <span>
-                                        <p class="minText fw-lighter mb-4">
+                                        <span class="minText fw-lighter mb-4">
                                             We help family offices invest in specific asset classes more efficiently.
                                             We also support private clients who have specific needs as entrepreneurs,
                                             professionals or corporate executives looking to best manage their savings for the long term.
                                             We analyze each specific case and develop a scope of services
                                             tailor-made to the client’s requirements and objectives.
-                                        </p>
-                                    </span>
+                                        </span>
+                                    </p>
                                 </div>
                                 <div class="col-sm-12 col-md-5 d-md-flex justify-content-center text-center text-md-start justify-content-md-start mb-3">
                                     <a href="../LXG/ourApproach.php#ourApproach"><img src="./public/img/Buttons/buttonLearnMore2.svg" alt="Learn More"></a>
@@ -114,11 +112,10 @@
                     <div class="container">
                         <div class="col-sm-6 col-md-6 justify-content-sm-center justify-content-md-start">
                             <p data-aos="fade-up" data-aos-anchor-placement="top-bottom" style="color: var(--title-color) !important; " class="textHome2 text-center text-md-start">
-                                Go forth and <br>
-                                set the world on fire
+                                "Strive not to be a success, but rather to be of value."
                             </p>
                             <p class="textWhite text-center text-md-start mb-5">
-                                Saint Ignatius of Loyola
+                                Albert Einstein
                             </p>
                             <div class="col-12 justify-content-sm-center justify-content-md-start text-center text-md-start">
                                 <a href="../LXGOffice/ourApproach.php"><img src="./public/img/Buttons/buttonLearnMoreW.png" alt="Learn More"></a>

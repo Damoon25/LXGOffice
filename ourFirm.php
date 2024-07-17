@@ -32,9 +32,6 @@
                                     financial services to discerning companies and families across Latin America.
                                 </p>
                             </div>
-                            <div class="d-flex justify-content-center">
-                                <img class="arrow" style="margin-top: 50px !important;" src="./public/img/icons/arrow2.svg" alt="Isolation Mode">
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -42,8 +39,8 @@
         </div>
         <div class="sectionOurFirm2">
             <div class="container">
-                <div class="col-sm-12 paddingBottom col-md-8 d-flex flex-column justify-content-center justify-content-md-start text-center text-md-start">
-                    <p class="TextBlack1 mb-2">
+                <div class="col-sm-12 paddingBottom  d-flex flex-column justify-content-center justify-content-md-start text-center text-md-start">
+                    <p class="TextBlack1 mb-2" style="color: var(--link) !important;">
                         Our fundamental commitment to principled leadership has guided us in
                         navigating the intricate landscape of finance,
                         always prioritizing our clients’ best interests,
@@ -53,8 +50,8 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 col-md-4">
-                        <h3 class="title1 fw-bold text-center text-md-start">LXG Capital</h3>
-                        <p class="minText">
+                        <h3 class="title1 fw-bold text-center text-md-start" style="color: var(--link) !important;">LXG Capital</h3>
+                        <p class="text2" style="color: var(--link) !important;">
                             At LXG Capital, we redefine financial landscapes through comprehensive investment banking services.
                             Our capabilities include advisory services on mergers and acquisitions,
                             capital markets, and corporate finance. With a commitment to insight and execution,
@@ -65,8 +62,8 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
-                        <h3 class="title1 fw-bold text-center text-md-start">LXG Family Office:</h3>
-                        <p class="minText">
+                        <h3 class="title1 fw-bold text-center text-md-start" style="color: var(--link) !important;">LXG Family Office:</h3>
+                        <p class="text2" style="color: var(--link) !important;">
                             At the heart of LXG lies our dedication to preserving and enhancing generational wealth.
                             The LXG Family Office is your trusted partner in wealth planning, investment management,
                             and family office services. We blend tradition with innovation as we support your multi-generational financial journey.
@@ -76,8 +73,8 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
-                        <h3 class="title1 fw-bold text-center text-md-start">LXG Impact:</h3>
-                        <p class="minText">
+                        <h3 class="title1 fw-bold text-center text-md-start" style="color: var(--link) !important;">LXG Impact:</h3>
+                        <p class="text2" style="color: var(--link) !important;">
                             Beyond financial capabilities, LXG Impact serves as our platform facilitating positive transformation throughout Latin America.
                             Engage with LXG Impact to participate in philanthropic endeavors,
                             developmental initiatives, and impactful investments that play a part in enhancing the well-being of our region.
@@ -203,7 +200,7 @@
                                         <p class="textAge text-center text-md-start">2009</p>
                                     </div>
                                     <div class="align-self-center text-center text-md-start py-5">
-                                        <p class="subText fw-bold mb-2">
+                                        <p class="textCalendar mb-2">
                                             LXG was born through the incorporation of LXG Capital
                                             to provide investment banking services to our region.
                                         </p>
@@ -243,8 +240,8 @@
                                         <p class="textAge text-center text-md-start">2015</p>
                                     </div>
                                     <div class="align-self-center text-center text-md-start py-5">
-                                        <p class="subText fw-bold mb-2">
-                                            LXG Family Office was established through the partnership between Felix Seguraç
+                                        <p class="textCalendar mb-2">
+                                            LXG Family Office was established through the partnership between Felix Segura
                                             and LXG Capital and the Peru office was opened.
                                         </p>
                                     </div>
@@ -283,7 +280,7 @@
                                         <p class="textAge text-center text-md-start">2021</p>
                                     </div>
                                     <div class="align-self-center text-center text-md-start py-5">
-                                        <p class="subText fw-bold mb-2">
+                                        <p class="textCalendar mb-2">
                                             Incorporation of Registered Investment Advisor (RIA) based in Miami, Fl., U.S.
                                         </p>
                                     </div>
@@ -322,7 +319,7 @@
                                         <p class="textAge text-center text-md-start">2022</p>
                                     </div>
                                     <div class="align-self-center text-center text-md-start py-5">
-                                        <p class="subText fw-bold mb-2">
+                                        <p class="textCalendar mb-2">
                                             Opening of the Argentina office.
                                         </p>
                                     </div>
@@ -361,7 +358,7 @@
                                         <p class="textAge text-center text-md-start">2023</p>
                                     </div>
                                     <div class="align-self-center text-center text-md-start py-5">
-                                        <p class="subText fw-bold mb-2">
+                                        <p class="textCalendar mb-2">
                                             Expansion to Central America through
                                             the opening of the Guatemala office.
                                         </p>
@@ -417,7 +414,7 @@
                                                 <div class="col-sm-2 number">
                                                     <svg width="35" height="35" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
                                                         <circle cx="25" cy="25" r="20" fill="#01486B" stroke="#01486B" stroke-width="2" />
-                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#ffffff" font-size="16" font-family="Arial" textLength="100%">1</text>
+                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#ffffff" font-size="16" font-family="Space Mono" textLength="100%">1</text>
                                                     </svg>
                                                 </div>
                                                 <div class="col-sm-10">
@@ -429,7 +426,7 @@
                                                     <div>
                                                         <p class="mt-1 minTextWhite">
                                                             1441 Brickell Ave. Suite 1016
-                                                            Miami, FL, U.S.A. 33131
+                                                            Miami, FL, U.S.A. 33131 <br>
                                                             +1 (305) 456-7645
                                                         </p>
                                                     </div>
@@ -443,7 +440,7 @@
                                                 <div class="col-sm-2 number">
                                                     <svg width="35" height="35" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
                                                         <circle cx="25" cy="25" r="20" fill="#01486B" stroke="#01486B" stroke-width="2" />
-                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#ffffff" font-size="16" font-family="Arial" textLength="100%">2</text>
+                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#ffffff" font-size="18" font-family="Space Mono" textLength="100%">2</text>
                                                     </svg>
                                                 </div>
                                                 <div class="col-sm-10">
@@ -454,8 +451,8 @@
                                                     </div>
                                                     <div>
                                                         <p class="mt-1 minTextWhite">
-                                                            Av. Pardo y Aliaga 675. Of. 602
-                                                            San Isidro, Lima, Peru 15073
+                                                            Av. Pardo y Aliaga 675, Of. 602 <br>
+                                                            San Isidro, Lima, Peru 15073 <br>
                                                             +51 1 500-1470
                                                         </p>
                                                     </div>
@@ -469,7 +466,7 @@
                                                 <div class="col-sm-2 number">
                                                     <svg id="number2" width="35" height="35" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
                                                         <circle cx="25" cy="25" r="20" fill="#01486B" stroke="#01486B" stroke-width="2" />
-                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#ffffff" font-size="16" font-family="Arial" textLength="100%">3</text>
+                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#ffffff" font-size="18" font-family="Space Mono" textLength="100%">3</text>
                                                     </svg>
                                                 </div>
                                                 <div class="col-sm-10">
@@ -480,9 +477,9 @@
                                                     </div>
                                                     <div>
                                                         <p class="mt-1 minTextWhite">
-                                                            Diagonal 6 11-10 zona 10
-                                                            Edificio DiagoSeis, Of. 1102
-                                                            Guatemala, Guatemala 01010
+                                                            Diagonal 6 11-10 zona 10 <br>
+                                                            Edificio DiagoSeis, Of. 1102 <br>
+                                                            Guatemala, Guatemala 01010 <br>
                                                             +502 3064-8619
                                                         </p>
                                                     </div>
@@ -496,7 +493,7 @@
                                                 <div class="col-sm-2 number">
                                                     <svg width="35" height="35" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
                                                         <circle cx="25" cy="25" r="20" fill="#01486B" stroke="#01486B" stroke-width="2" />
-                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#ffffff" font-size="16" font-family="Arial" textLength="100%">4</text>
+                                                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#ffffff" font-size="18" font-family="Space Mono" textLength="100%">4</text>
                                                     </svg>
                                                 </div>
                                                 <div class="col-sm-10">
@@ -507,8 +504,8 @@
                                                     </div>
                                                     <div>
                                                         <p class="mt-1 minTextWhite">
-                                                            Av. Fondo de la Legua 936 <br>
-                                                            Edificio Lomas de San Isidro Plaza II, Of. D <br>
+                                                            Av. Fondo de la Legua 936, Of. D <br>
+                                                            Edificio Lomas de San isidro Plaza II <br>
                                                             Buenos Aires, Argentina
                                                         </p>
                                                     </div>
@@ -549,11 +546,11 @@
         <div class="col-sm-12 d-flex justify-content-center paddingTop paddingBottom">
             <div class="container">
                 <div id="culture" class="col-sm-12 text-start">
-                    <div class="col-sm-12 col-md-6 align-self-center">
+                    <div class="col-sm-12 col-md-8 align-self-center">
                         <h3 class="text1 fw-lighter mb-2" style="color: var(--btn-color) !important;">
                             Our Values: Trust is our currency!
                         </h3>
-                        <p class="minText fw-semibold mb-3">
+                        <p class="text1 mb-3">
                             Trust is not just a word for us, it is our main currency.
                             It is the foundation upon which we build lasting relationships and guide the financial journey
                             of our clients with integrity. We express this trust through four practices:
@@ -563,12 +560,12 @@
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <button class="accordion-button text1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                 Competence
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body text2">
                                 We hold and demonstrate the technical skills required for the high level of
                                 responsibility our work requires. These skills must be constantly updated
                                 and upgraded at all levels of our team.
@@ -577,12 +574,12 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <button class="accordion-button text1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                 Care
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body text2">
                                 You best interests are at the forefront of every decision we make. We
                                 hold a fiduciary duty to you and go beyond it, genuinely caring and
                                 dedicating ourselves to always doing what is best for you.
@@ -591,12 +588,12 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            <button class="accordion-button text1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                 Character
                             </button>
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body text2">
                                 Our moral compass is unwavering. In the face of challenges and conflicts,
                                 we stand firm, consistently making the right decisions.
                             </div>
@@ -604,12 +601,12 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            <button class="accordion-button text1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                                 Consistency
                             </button>
                         </h2>
                         <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body text2">
                                 We are in this for the long term. Day in and day out, we deliver, helping
                                 you navigate the ever-changing conditions of the financial landscape.
                             </div>

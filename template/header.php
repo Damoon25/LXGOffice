@@ -1,4 +1,4 @@
-<nav class="container navbar navbar-expand-lg navbar-custom pt-0 pb-0">
+<nav class="container navbar navbar-expand-lg navbar-custom pt-3 pb-0">
     <a class="navbar-brand ms-auto pt-3" style="margin-left: 0px !important;" href="index.php"><img src="./public/img/logoWhite.svg" id="logo" alt="logo" class="logo sm-auto d-block"></a>
     <button class="btnMenu d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
         <img src="./public/img/Buttons/menu.svg" alt="Menu">

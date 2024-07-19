@@ -63,7 +63,7 @@
                             while having a transparent structure that avoids potential conflicts.
                         </p>
                         <div class="mt-5 text-center text-md-start">
-                            <a href="../LXG/ourFirm.php"><img class="hvr-grow animate__animated animate__heartBeat animate__delay-0s animate__fast" src="./public/img/Buttons/buttonLearnMoreT.svg" alt="Learn More"></a>
+                            <a href="./ourFirm.php"><img class="hvr-grow animate__animated animate__heartBeat animate__delay-0s animate__fast" src="./public/img/Buttons/buttonLearnMoreT.svg" alt="Learn More"></a>
                         </div>
                     </div>
                 </div>
@@ -110,9 +110,9 @@
             <div class="row m-0 p-0">
                 <div class="col-sm-12">
                     <div class="container">
-                        <div class="col-sm-6 col-md-6 justify-content-sm-center justify-content-md-start">
+                        <div class="col-sm-6 col-md-12 justify-content-sm-center justify-content-md-start">
                             <p data-aos="fade-up" data-aos-anchor-placement="top-bottom" style="color: var(--title-color) !important; " class="textHome2 text-center text-md-start">
-                                "Strive not to be a success, but rather to be of value."
+                                "Strive not to be a success, <br> but rather to be of value."
                             </p>
                             <p class="textWhite text-center text-md-start mb-5">
                                 Albert Einstein

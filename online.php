@@ -55,7 +55,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 mb-md-4 align-self-end text-center text-md-start">
-                        <p class="minText fw-semibold animate__animated animate__backInRight animate__delay-0s animate__fast text-md-start" style="color: var(--link) !important;">
+                        <p class="subText animate__animated animate__backInRight animate__delay-0s animate__fast text-md-start" style="color: var(--link) !important;">
                             For this purpose, we provide the LXG Online service for our clients,
                             which is built on the Addepar® technology platform.
                             Addepar stands as one of the world’s leading wealth management IT solution providers,

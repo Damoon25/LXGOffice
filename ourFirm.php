@@ -565,7 +565,7 @@
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body text2">
+                            <div class="accordion-body">
                                 We hold and demonstrate the technical skills required for the high level of
                                 responsibility our work requires. These skills must be constantly updated
                                 and upgraded at all levels of our team.
@@ -579,7 +579,7 @@
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body text2">
+                            <div class="accordion-body">
                                 You best interests are at the forefront of every decision we make. We
                                 hold a fiduciary duty to you and go beyond it, genuinely caring and
                                 dedicating ourselves to always doing what is best for you.
@@ -593,7 +593,7 @@
                             </button>
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body text2">
+                            <div class="accordion-body">
                                 Our moral compass is unwavering. In the face of challenges and conflicts,
                                 we stand firm, consistently making the right decisions.
                             </div>
@@ -606,7 +606,7 @@
                             </button>
                         </h2>
                         <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body text2">
+                            <div class="accordion-body">
                                 We are in this for the long term. Day in and day out, we deliver, helping
                                 you navigate the ever-changing conditions of the financial landscape.
                             </div>

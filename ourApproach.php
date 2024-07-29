@@ -133,17 +133,18 @@
                             </div>
                         </div>
                         <!-- Cuarta columna -->
-                        <div class="col-sm-12 col-md-6 d-flex mb-5 align-self-start">
+                        <div class="col-sm-12 col-md-6 d-flex  align-self-start">
                             <div class="d-flex align-items-center flex-column justify-content-center text-center text-md-start flex-md-row mt-3 mt-md-0">
-                                <img class="iconCapital5 mb-3 mb-md-0" src="./public/img/icons/lista.svg" alt="Icono lista">
+                                <img class="iconCapital6 mb-3 mb-md-0" src="./public/img/icons/maleta.svg" alt="Icono Maleta">
                                 <div class="flex-column ms-3">
                                     <p class="subText fw-bold">
-                                        Investment Portfolio Supervision and Reporting:
+                                        Investment Portfolio Design, Implementation,
+                                        and Management:
                                     </p>
                                     <p class="minText fw-light">
-                                        Having implemented the investment strategy,
-                                        we ensure continuous management and oversight of your portfolio through best-in-class technological platforms,
-                                        providing transparent and detailed reporting.
+                                        Once the risk and goal parameters are established, we define the optimal asset allocation,
+                                        selecting the best custodian and financial service provider, and source the ideal investment instruments
+                                        for your unique requirements and objectives.
                                     </p>
                                 </div>
                             </div>
@@ -166,24 +167,6 @@
                             </div>
                         </div>
                         <!-- Sexta columna -->
-                        <div class="col-sm-12 col-md-6 d-flex  align-self-start">
-                            <div class="d-flex align-items-center flex-column justify-content-center text-center text-md-start flex-md-row mt-3 mt-md-0">
-                                <img class="iconCapital6 mb-3 mb-md-0" src="./public/img/icons/maleta.svg" alt="Icono Maleta">
-                                <div class="flex-column ms-3">
-                                    <p class="subText fw-bold">
-                                        Investment Portfolio Design, Implementation,
-                                        and Management:
-                                    </p>
-                                    <p class="minText fw-light">
-                                        Once the risk and goal parameters are established, we define the optimal asset allocation,
-                                        selecting the best custodian and financial service provider, and source the ideal investment instruments
-                                        for your unique requirements and objectives.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
                         <div class="col-sm-12 col-md-6 d-flex mb-5 align-self-start">
                             <div class="d-flex align-items-center flex-column justify-content-center text-center text-md-start flex-md-row mt-3 mt-md-0">
                                 <img class="iconCapital7 mb-3 mb-md-0" src="./public/img/icons/escudo.svg" alt="Icono escudo">
@@ -195,6 +178,23 @@
                                         We continuously analyze private investment opportunities and offer personalized
                                         support in evaluating and executing investments,
                                         including private market transactions and divestments.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 d-flex mb-5 align-self-start">
+                            <div class="d-flex align-items-center flex-column justify-content-center text-center text-md-start flex-md-row mt-3 mt-md-0">
+                                <img class="iconCapital5 mb-3 mb-md-0" src="./public/img/icons/lista.svg" alt="Icono lista">
+                                <div class="flex-column ms-3">
+                                    <p class="subText fw-bold">
+                                        Investment Portfolio Supervision and Reporting:
+                                    </p>
+                                    <p class="minText fw-light">
+                                        Having implemented the investment strategy,
+                                        we ensure continuous management and oversight of your portfolio through best-in-class technological platforms,
+                                        providing transparent and detailed reporting.
                                     </p>
                                 </div>
                             </div>

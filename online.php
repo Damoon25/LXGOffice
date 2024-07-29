@@ -25,9 +25,6 @@
                                     LXG Online
                                 </h1>
                             </div>
-                            <div class="d-flex justify-content-center">
-                                <img class="arrow" style="margin-top: 50px !important;" src="./public/img/icons/arrow2.svg" alt="Isolation Mode">
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -37,9 +37,6 @@
                                     <img src="./public/img/Buttons/menu.svg" alt="Menu">
                                 </button> -->
                             </div>
-                            <div class="arrow-container position-absolute">
-                                <img class="arrow" src="./public/img/icons/arrow2.svg" alt="Isolation Mode">
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -208,10 +208,27 @@
             </div>
             <div class="container paddingBottom">
                 <div class="col-sm-12">
+                    <!-- Primera Fila -->
                     <div class="row mt-5">
                         <div class="col-sm-12 col-md-4">
                             <div class="card">
-                                <img src="./public/img/people/teamB1.png" alt="team 1">
+                                <img src="./public/img/people/teamB8.jpg" alt="team 8">
+                                <div class="card-body mt-3" style="background-color: transparent !important;">
+                                    <h2 class="textTeam  mb-2">
+                                        Aldo Oyadomari
+                                    </h2>
+                                    <p class="textTeamSub mb-3">
+                                        Head of Operations & Advisor
+                                    </p>
+                                    <p class="textTeamSub  fw-semibold mb-4">
+                                        Location: Peru
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card">
+                                <img src="./public/img/people/teamB1.jpg" alt="team 1">
                                 <div class="card-body mt-3" style="background-color: transparent !important;">
                                     <h2 class="textTeam  mb-2">
                                         Luciana Ramírez*
@@ -230,7 +247,46 @@
                         </div>
                         <div class="col-sm-12 col-md-4">
                             <div class="card">
-                                <img src="./public/img/people/teamB2.png" alt="team 2">
+                                <img src="./public/img/people/teamB12.jpg" alt="team 12">
+                                <div class="card-body mt-3" style="background-color: transparent !important;">
+                                    <h2 class="textTeam  mb-2">
+                                        Alejandra Morante*
+                                    </h2>
+                                    <p class="textTeamSub mb-3">
+                                        Senior Associate - Wealth Planning
+                                    </p>
+                                    <p class="textTeamSub  fw-semibold mb-4">
+                                        Location: Peru
+                                    </p>
+                                    <p class="minText fw-lighter mb-4">
+                                        *Not an investment advisor at LXG Wealth Advisory
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Segunda Fila -->
+                    <div class="row mt-5">
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card">
+                                <img src="./public/img/people/teamB4.jpg" alt="team 4">
+                                <div class="card-body mt-3" style="background-color: transparent !important;">
+                                    <h2 class="textTeam  mb-2">
+                                        Alonzo Vílchez
+                                    </h2>
+                                    <p class="textTeamSub mb-3">
+                                        Associate Advisor
+                                    </p>
+                                    <p class="textTeamSub  fw-semibold mb-4">
+                                        Location: Peru
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card">
+                                <img src="./public/img/people/teamB2.jpg" alt="team 2" style="height: 28.3rem !important;">
                                 <div class="card-body mt-3" style="background-color: transparent !important;">
                                     <h2 class="textTeam  mb-2">
                                         Valeria Alvarado
@@ -246,25 +302,7 @@
                         </div>
                         <div class="col-sm-12 col-md-4">
                             <div class="card">
-                                <img src="./public/img/people/teamB4.png" alt="team 4">
-                                <div class="card-body mt-3" style="background-color: transparent !important;">
-                                    <h2 class="textTeam  mb-2">
-                                        Alonzo Vílchez
-                                    </h2>
-                                    <p class="textTeamSub mb-3">
-                                        Associate Advisor
-                                    </p>
-                                    <p class="textTeamSub  fw-semibold mb-4">
-                                        Location: Peru
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-5">
-                        <div class="col-sm-12 col-md-4">
-                            <div class="card">
-                                <img src="./public/img/people/teamB5.png" alt="team 5">
+                                <img src="./public/img/people/teamB5.jpg" alt="team 5">
                                 <div class="card-body mt-3" style="background-color: transparent !important;">
                                     <h2 class="textTeam  mb-2">
                                         Humberto Rada
@@ -278,49 +316,19 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+                    <!-- Tercera Fila -->
+                    <div class="row mt-5">
                         <div class="col-sm-12 col-md-4">
                             <div class="card">
-                                <img src="./public/img/people/teamB6.png" alt="team 6">
+                                <img src="./public/img/people/teamB6.jpg" alt="team 6">
                                 <div class="card-body mt-3" style="background-color: transparent !important;">
                                     <h2 class="textTeam  mb-2">
                                         Kathleen Fernández
                                     </h2>
                                     <p class="textTeamSub mb-3">
                                         Associate Advisor
-                                    </p>
-                                    <p class="textTeamSub  fw-semibold mb-4">
-                                        Location: Peru
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4">
-                            <div class="card">
-                                <img src="./public/img/people/teamB7.png" alt="team 7">
-                                <div class="card-body mt-3" style="background-color: transparent !important;">
-                                    <h2 class="textTeam  mb-2">
-                                        Lucía Atoche
-                                    </h2>
-                                    <p class="textTeamSub mb-3">
-                                        Administrative and Talent Support Manager
-                                    </p>
-                                    <p class="textTeamSub  fw-semibold mb-4">
-                                        Location: Peru
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-5">
-                        <div class="col-sm-12 col-md-4">
-                            <div class="card">
-                                <img src="./public/img/people/teamB8.jpg" alt="team 8">
-                                <div class="card-body mt-3" style="background-color: transparent !important;">
-                                    <h2 class="textTeam  mb-2">
-                                        Aldo Oyadomari
-                                    </h2>
-                                    <p class="textTeamSub mb-3">
-                                        Head of Operations & Advisor
                                     </p>
                                     <p class="textTeamSub  fw-semibold mb-4">
                                         Location: Peru
@@ -361,6 +369,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Cuarta Fila -->
                     <div class="row mt-5">
                         <div class="col-sm-12 col-md-4">
                             <div class="card">
@@ -380,19 +390,16 @@
                         </div>
                         <div class="col-sm-12 col-md-4">
                             <div class="card">
-                                <img src="./public/img/people/teamB12.jpg" alt="team 12">
+                                <img src="./public/img/people/teamB7.jpg" alt="team 7">
                                 <div class="card-body mt-3" style="background-color: transparent !important;">
                                     <h2 class="textTeam  mb-2">
-                                        Alejandra Morante*
+                                        Lucía Atoche
                                     </h2>
                                     <p class="textTeamSub mb-3">
-                                        Senior Associate - Wealth Planning
+                                        Administrative and Talent Support Manager
                                     </p>
                                     <p class="textTeamSub  fw-semibold mb-4">
                                         Location: Peru
-                                    </p>
-                                    <p class="minText fw-lighter mb-4">
-                                        *Not an investment advisor at LXG Wealth Advisory
                                     </p>
                                 </div>
                             </div>

@@ -62,7 +62,7 @@
         </div>
         <div class="row justify-content-between align-items-center">
             <div class="col-12 col-md-6 text-center text-md-start pt-2 pb-2">
-                <p class="textFooter mt-3">© 2024 LXG OFFICE. All Rights Reserved.</p>
+                <p class="textFooter mt-3">© 2024 LXG FAMILY OFFICE. All Rights Reserved.</p>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end mb-3">
                 <a href=""><img class="icon2 mx-2" src="./public/img/icons/linkedinBlack.svg" alt="Linkedin"></a>

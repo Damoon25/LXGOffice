@@ -28,6 +28,9 @@
                     <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link fw-light animate__animated animate__backInRight animate__delay-1s animate__fast" style="color: var(--link) !important" href="compliance.php">COMPLIANCE</a></button>
                 </li>
                 <li class="pt-4 pe-4">
+                    <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link fw-light animate__animated animate__backInRight animate__delay-1s animate__fast" style="color: var(--link) !important" href="impact.php">IMPACT</a></button>
+                </li>
+                <li class="pt-4 pe-4">
                     <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link fw-light animate__animated animate__backInRight animate__delay-1s animate__fast" style="color: var(--link) !important" href="contact.php">CONTACT</a></button>
                 </li>
                 <li class="pt-4 pe-4">
@@ -62,6 +65,9 @@
             </li>
             <li class="pt-4 pe-3">
                 <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link fw-light" style="color: var(--link) !important" href="compliance.php">COMPLIANCE</a></button>
+            </li>
+            <li class="pt-4 pe-3">
+                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link fw-light" style="color: var(--link) !important" href="impact.php">IMPACT</a></button>
             </li>
             <li class="pt-4 pe-3">
                 <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link fw-light" style="color: var(--link) !important" href="contact.php">CONTACT</a></button>

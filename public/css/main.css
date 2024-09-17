@@ -24,6 +24,7 @@
     --color7: #7F7769;
     --color8: #EDEDED;
     --color9: #01486B;
+    --color10: #313C32;
     --textFooter: #999999;
     --text: #ffffff;
     --text-parrafo: #231F20;
@@ -259,7 +260,7 @@ ul {
 
 .nav-link{
     font-family: "Nunito Sans" !important;
-    padding: 6px 15px !important;
+    padding: 6px 10px !important;
     font-size: 15px !important;
     font-style: normal !important;
     font-weight: 400 !important;
@@ -802,6 +803,24 @@ a:hover {
     margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
+.portadaImpact {
+    background-image: url('../img/imgPortadas/LXG-IMP-1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    height: auto !important;
+    display: inline-block; /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.impact {
+    padding-top: 9% !important;
+    padding-bottom: 9% !important;
+    background-color: var(--color10) !important;
+    color: var(--link) !important;
+}
+
 .portadalXGOnline {
     background-image: url('../img/imgPortadas/LXG-ON-1.jpg');
     background-position: center center;
@@ -1064,6 +1083,16 @@ a:hover {
     text-align: center;
     font-family: "Nunito Sans" !important;
     font-size: 35px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 66px;
+}
+
+.titleImpact {
+    color: var(--text-parrafo) !important;
+    text-align: center;
+    font-family: "Nunito Sans" !important;
+    font-size: 30px !important;
     font-style: normal;
     font-weight: 700;
     line-height: 66px;

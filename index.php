@@ -114,9 +114,6 @@
                             <p class="textWhite text-center text-md-start mb-5">
                                 Albert Einstein
                             </p>
-                            <div class="col-12 justify-content-sm-center justify-content-md-start text-center text-md-start">
-                                <a href="../LXGOffice/ourApproach.php"><img src="./public/img/Buttons/buttonLearnMoreW.png" alt="Learn More"></a>
-                            </div>
                         </div>
                     </div>
                 </div>

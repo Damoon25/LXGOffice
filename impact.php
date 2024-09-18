@@ -111,7 +111,7 @@
                 <div class="col-sm-12 flex-column flex-md-row paddingTop paddingBottom">
                     <div class="row">
                         <div class="col-sm-12 col-md-6 order-md-1">
-                            <img data-aos="fade-left" class="p-md-5 ps-md-0" src="./public/img/imgPortadas/LXG-IMP-3.JPG" alt="Imagen 2">
+                            <img data-aos="fade-left" class="p-md-5 ps-md-0" src="./public/img/imgPortadas/LXG-IMP-3.JPG" alt="Imagen 3">
                         </div>
                         <div class="col-sm-12 pe-md-0 col-md-6 order-md-2 align-self-center">
                             <div class="mb-5">
@@ -137,7 +137,29 @@
                 </div>
             </div>
         </div>
-        <div class="portadaHome2">
+        <div class="container">
+            <div class="col-sm-12 flex-column flex-md-row paddingTop paddingBottom">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 order-md-2">
+                        <img data-aos="fade-left" class="p-md-5 pe-md-0" src="./public/img/imgPortadas/LXG-IMP-4.JPG" alt="Imagen 4">
+                    </div>
+                    <div class="col-sm-12 pe-md-0 col-md-6 order-md-1 align-self-center">
+                        <div class="mb-5">
+                            <h3 class="titleSection fw-bolder mb-5">
+                                Community Engagement
+                            </h3>
+                            <p class="subText mb-4">
+                                We believe in empowering local communities through direct involvement.
+                                By engaging with local leaders, businesses, and individuals,
+                                we aim to build sustainable projects that uplift and support those in need.
+                            </p>
+                        </div>
+                        <div class="col-sm-12 col-md-5 d-md-flex justify-content-center text-center text-md-start justify-content-md-start mt-5 mb-3">
+                            <a href=""><img src="./public/img/Buttons/buttonLearnMoreG.png" width="80%" alt="Learn More"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="portadaOurApproach paddingTop paddingBottom">
             <div class="row m-0 p-0">
@@ -145,65 +167,187 @@
                     <div class="container">
                         <div class="col-sm-6 col-md-12 justify-content-sm-center justify-content-md-start">
                             <p data-aos="fade-up" data-aos-anchor-placement="top-bottom" style="color: var(--title-color) !important; " class="textHome2 text-center text-md-start">
-                                "Strive not to be a success, <br> but rather to be of value."
+                                "One of the deep secrets of life <br>
+                                is that all that is really worth doing <br>
+                                is what we do for others.”
                             </p>
                             <p class="textWhite text-center text-md-start mb-5">
-                                Albert Einstein
+                                Lewis Carroll
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="sectionImage2">
-            <div class="container">
-                <div class="section col-sm-12 text-center text-md-start justify-content-center justify-content-md-start paddingTop paddingBottom">
-                    <div class="container">
-                        <img data-aos="zoom-in-left" class="imgContact" src="./public/img/imgPortadas/contact.png">
+        <div class="container">
+            <div class="col-sm-12 text-center text-md-start">
+                <h2 class="titleSection text-center paddingTop paddingBottom" style="color: var(--color9) !important;">
+                    Engaging with LXG Impact
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 d-none d-md-block mb-md-0 me-md-0 justify-content-center align-items-center text-center">
+                    <img class="iconFirm" src="./public/img/icons/LXG-IMP-ICON3.png" alt="icon">
+                </div>
+                <div class="col-sm-12 col-md-4 d-none d-md-block mb-md-0 me-md-0 justify-content-center align-items-center text-center">
+                    <img class="iconFirm" src="./public/img/icons/LXG-IMP-ICON1.png" alt="icon">
+                </div>
+                <div class="col-sm-12 col-md-4 d-none d-md-block mb-md-0 me-md-0 justify-content-center align-items-center text-center">
+                    <img class="iconFirm" src="./public/img/icons/LXG-IMP-ICON2.png" alt="icon">
+                </div>
+            </div>
+            <div class="row paddingBottom">
+                <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 d-md-none mb-5 mb-md-3 me-md-0 justify-content-center align-items-center text-center">
+                        <img class="iconFirm" src="./public/img/icons/LXG-IMP-ICON3.png" alt="icon">
                     </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-4 align-self-start paddingTop mt-2">
-                                <p class="subText fw-semibold">
-                                    We are always looking to add team players who conduct according
-                                    to firm ethical and moral standards.
-                                </p>
-                            </div>
-                            <div class="col-sm-12 col-md-8 align-self-start">
-                                <div class="container">
-                                    <div class="row">
-                                        <form id="contactForm" action="enviar.php" method="post">
-                                            <div class="row">
-                                                <div class="mb-4 text-start col-md-6">
-                                                    <label for="firstName" class="form-label">First Name</label>
-                                                    <input type="text" class="form-control bottom-border" id="firstName">
-                                                </div>
-                                                <div class="mb-4 text-start col-md-6">
-                                                    <label for="lastName" class="form-label">Last Name</label>
-                                                    <input type="text" class="form-control bottom-border" id="lastName">
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="mb-4 text-start col-md-6">
-                                                    <label for="email" class="form-label">Email</label>
-                                                    <input type="email" class="form-control bottom-border" id="email">
-                                                </div>
-                                                <div class="mb-4 text-start col-md-6">
-                                                    <label for="subject" class="form-label">Subject</label>
-                                                    <input type="text" class="form-control bottom-border" id="subject">
-                                                </div>
-                                            </div>
-                                            <div class="mb-4 text-start col-12">
-                                                <label for="message" class="form-label">Message</label>
-                                                <textarea class="form-control bottom-border" id="message" rows="5"></textarea>
-                                            </div>
-                                            <div class="col-sm-12 justify-content-end text-end paddingForm">
-                                                <button type="submit" class="btn2">Send</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
+                    <h3 class="title1 fw-bold text-center mt-md-3" style="color: var(--color9) !important;">Collaborate</h3>
+                    <p class="text2 mb-5 mb-md-0" style="color: var(--color9) !important;">
+                        Partner with us on existing projects or propose new initiatives that align with our mission.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 d-md-none mb-5 mb-md-3 me-md-0 justify-content-center align-items-center text-center">
+                        <img class="iconFirm" src="./public/img/icons/LXG-IMP-ICON1.png" alt="icon">
+                    </div>
+                    <h3 class="title1 fw-bold text-center mt-md-3" style="color: var(--color9) !important;">Participate</h3>
+                    <p class="text2 mb-5 mb-md-0" style="color: var(--color9) !important;">
+                        Get involved in our community projects and non-profit endeavors.
+                        Your time and expertise can make a significant difference.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 d-md-none mb-5 mb-md-3 me-md-0 justify-content-center align-items-center text-center">
+                        <img class="iconFirm" src="./public/img/icons/LXG-IMP-ICON2.png" alt="icon">
+                    </div>
+                    <h3 class="title1 fw-bold text-center mt-md-3" style="color: var(--color9) !important;">Invest</h3>
+                    <p class="text2 mb-5 mb-md-0" style="color: var(--color9) !important;">
+                        Join us in identifying impact investment options,
+                        such as the LXG Amazon Reforestry Fund,
+                        to drive positive change through the conscious deployment of capital.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12 text-center paddingTop paddingBottom">
+                <h2 class="titleImpactSection text-center mb-5" style="color: var(--color9) !important;">
+                    Together, we can make a difference
+                </h2>
+                <div class="col-sm-12 d-flex justify-content-center">
+                    <div class="col-sm-12 col-md-7 text-center mx-auto">
+                        <p class="title1 mb-5 mb-md-0" style="color: var(--color9) !important;">
+                            At LXG, positive impact is not just a commitment—it's part of our DNA.
+                            Join us in our journey to create a better, more sustainable future for all.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portadaImpact2">
+            <div class="col-sm-12 text-center text-md-start">
+                <h2 class="titleSection text-center" style="color: var(--link) !important;">
+                    Flagship Projects & Collaborations
+                </h2>
+            </div>
+        </div>
+        <div class="sectionImage2 section m-0 p-0">
+            <div class="container">
+                <div class="col-sm-12 paddingTop d-flex justify-content-center">
+                    <div class="col-sm-6 d-flex align-items-center justify-content-center">
+                        <img src="./public/img/brands/logo_amazon.png" width="50%" alt="Logo">
+                    </div>
+                </div>
+                <div class="col-sm-12 flex-column flex-md-row paddingTop paddingBottom">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 order-md-1">
+                            <img data-aos="fade-left" class="imageSection p-md-5 ps-md-0 pb-md-0" src="./public/img/imgPortadas/LXG-IMP-6.jpg" alt="Imagen">
+                        </div>
+                        <div class="col-sm-12 pe-md-0 col-md-6 order-md-2 align-self-md-center">
+                            <h3 class="text1 fw-bolder mb-2">
+                                The LXG Amazon Reforestry Fund was created in 2016
+                                and is listed in the Lima Stock Exchange under Peruvian regulation.
+                            </h3>
+                            <p class="minText fw-semibold paddingBottom">
+                                With the objective of reforesting areas of the Peruvian Amazon basin
+                                that have suffered from the adverse effects of climate change,
+                                illegal wood cutting, and other practices.
+                            </p>
+                            <img class="iconFirm mt-5" src="./public/img/icons/link.png" alt="icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-sm-12 paddingTop d-flex justify-content-center">
+                <div class="col-sm-6 d-flex align-items-center justify-content-center">
+                    <img src="./public/img/brands/Logo-full.png" width="50%" alt="Logo">
+                </div>
+            </div>
+            <div class="col-sm-12 flex-column flex-md-row paddingTop paddingBottom">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 order-md-2">
+                        <img data-aos="fade-left" class="imageSection p-md-5 pe-md-0 pb-md-0" src="./public/img/imgPortadas/LXG-IMP-7.jpg" alt="Imagen">
+                    </div>
+                    <div class="col-sm-12 pe-md-0 col-md-6 order-md-1 align-self-md-center">
+                        <h3 class="text1 fw-bolder mb-2">
+                            Fundacion Teleton is a non-profit organization dedicated to providing quality physical
+                            rehabilitation services to underprivileged children
+                            in Peru through 6 Juan de Dios clinics around the country.
+                        </h3>
+                        <p class="minText fw-bold mt-5">
+                            In 2023 Fundacion Teleton had the following impact:
+                        </p>
+                        <ul class="minText fw-bold paddingBottom list-unstyled">
+                            <li class="d-flex align-items-start mb-1">
+                                <span class="me-3">•</span>
+                                114,802 medical attentions around 10 specialty areas
+                            </li>
+                            <li class="d-flex align-items-start mb-1">
+                                <span class="me-3">•</span>
+                                Over 600 children with a physical incapacity or autism have been supported by over 150 professionals and specialists
+                            </li>
+                            <li class="d-flex align-items-start mb-1">
+                                <span class="me-3">•</span>
+                                6 rehabilitation centers have been supported around Peru
+                            </li>
+                            <li class="d-flex align-items-start mb-1">
+                                <span class="me-3">•</span>
+                                Specialized rehabilitation center for children with autism has been open and supported in Lima
+                            </li>
+                            <li class="d-flex align-items-start mb-1">
+                                <span class="me-3">•</span>
+                                PwC audits financial statements
+                            </li>
+                        </ul>
+                        <img class="iconFirm" src="./public/img/icons/link.png" alt="icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sectionImage2 section m-0 p-0">
+            <div class="container">
+                <div class="col-sm-12 paddingTop d-flex justify-content-center">
+                    <div class="col-sm-6 d-flex align-items-center justify-content-center">
+                        <img src="./public/img/brands/propel.png" width="25%" alt="Logo">
+                    </div>
+                </div>
+                <div class="col-sm-12 flex-column flex-md-row paddingTop paddingBottom">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 order-md-1">
+                            <img data-aos="fade-left" class="imageSection p-md-5 ps-md-0 pb-md-0" src="./public/img/imgPortadas/LXG-IMP-8.png" alt="Imagen">
+                        </div>
+                        <div class="col-sm-12 pe-md-0 col-md-6 order-md-2 align-self-md-center">
+                            <h3 class="text1 fw-bolder mb-2">
+                                Propel is a non-profit organization providing workshops and fellowship programs
+                                to Latin American social entrepreneurs to enhance and accelerate the growth of their organizations,
+                                in particular strengthening their adoption of technology and innovative processes.
+                            </h3>
+                            <p class="minText fw-semibold paddingBottom">
+                                Over the last few years LXG has provided financial support to Propel.
+                                In addition, LXG team members have participated in several Propel initiatives 
+                                providing external technical support.
+                            </p>
+                            <img class="iconFirm mt-5" src="./public/img/icons/link.png" alt="icon">
                         </div>
                     </div>
                 </div>

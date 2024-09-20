@@ -88,7 +88,7 @@
                                             <img src="./public/img/brands/del_valle.png" width="80%" alt="Logo2">
                                         </div>
                                         <div class="d-flex align-items-center flex-column justify-content-center text-center text-md-start flex-md-row mt-3 mt-md-0">
-                                            <img src="./public/img/brands/Propel_Logo_images.png" width="80%" alt="Logo3">
+                                            <img src="./public/img/brands/propel.png" width="60%" alt="Logo3">
                                         </div>
                                     </div>
                                 </div>
@@ -130,7 +130,7 @@
                                 <img src="./public/img/brands/LXG_ARF.png" width="30%" alt="Logo1">
                             </div>
                             <div class="col-sm-12 col-md-5 d-md-flex justify-content-center text-center text-md-start justify-content-md-start mt-5 mb-3">
-                                <a href=""><img src="./public/img/Buttons/buttonLearnMoreG.png" width="80%" alt="Learn More"></a>
+                                <a href="#logo_amazon"><img src="./public/img/Buttons/buttonLearnMoreG.png" width="80%" alt="Learn More"></a>
                             </div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
             <div class="col-sm-12 flex-column flex-md-row paddingTop paddingBottom">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 order-md-2">
-                        <img data-aos="fade-left" class="p-md-5 pe-md-0" src="./public/img/imgPortadas/LXG-IMP-4.JPG" alt="Imagen 4">
+                        <img data-aos="fade-left" class="p-md-5 pe-md-0" src="./public/img/imgPortadas/LXG-IMP-4.jpg" alt="Imagen 4">
                     </div>
                     <div class="col-sm-12 pe-md-0 col-md-6 order-md-1 align-self-center">
                         <div class="mb-5">
@@ -253,15 +253,33 @@
             <div class="container">
                 <div class="col-sm-12 paddingTop d-flex justify-content-center">
                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                        <img src="./public/img/brands/logo_amazon.png" width="50%" alt="Logo">
+                        <img src="./public/img/brands/logo_amazon.png" id="logo_amazon" width="50%" alt="Logo">
                     </div>
                 </div>
                 <div class="col-sm-12 flex-column flex-md-row paddingTop paddingBottom">
                     <div class="row">
-                        <div class="col-sm-12 col-md-6 order-md-1">
-                            <img data-aos="fade-left" class="imageSection p-md-5 ps-md-0 pb-md-0" src="./public/img/imgPortadas/LXG-IMP-6.jpg" alt="Imagen">
+                        <!-- Carrusel (50% de la pantalla) -->
+                        <div class="col-sm-12 col-md-6 order-md-2">
+                            <div id="carouselExampleUnique" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <!-- Imagen 1 -->
+                                    <div class="carousel-item active">
+                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/LXG-IMP-6.jpg" alt="Imagen 1">
+                                    </div>
+                                    <!-- Imagen 2 -->
+                                    <div class="carousel-item">
+                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/LXG-IMP-6.jpg" alt="Imagen 2">
+                                    </div>
+                                    <!-- Imagen 3 -->
+                                    <div class="carousel-item">
+                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/LXG-IMP-6.jpg" alt="Imagen 3">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-sm-12 pe-md-0 col-md-6 order-md-2 align-self-md-center">
+
+                        <!-- Texto (50% de la pantalla) -->
+                        <div class="col-sm-12 pe-md-0 col-md-6 order-md-1 align-self-md-center">
                             <h3 class="text1 fw-bolder mb-2">
                                 The LXG Amazon Reforestry Fund was created in 2016
                                 and is listed in the Lima Stock Exchange under Peruvian regulation.
@@ -271,7 +289,17 @@
                                 that have suffered from the adverse effects of climate change,
                                 illegal wood cutting, and other practices.
                             </p>
-                            <img class="iconFirm mt-5" src="./public/img/icons/link.png" alt="icon">
+                            <a href=""><img class="iconFirm mt-5" src="./public/img/icons/link.png" alt="icon"></a>
+
+                            <!-- Botones de control del carrusel -->
+                            <div class="col-sm-12 d-flex justify-content-center justify-content-md-start align-items-center mt-5">
+                                <button class="btn_carousel" data-bs-target="#carouselExampleUnique" data-bs-slide="prev">
+                                    <img class="iconCarousel me-0 m-1" src="./public/img/Buttons/btn_prev.png" alt="prev">
+                                </button>
+                                <button class="btn_carousel" data-bs-target="#carouselExampleUnique" data-bs-slide="next">
+                                    <img class="iconCarousel m-1" src="./public/img/Buttons/btn_next.png" alt="next">
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -285,14 +313,30 @@
             </div>
             <div class="col-sm-12 flex-column flex-md-row paddingTop paddingBottom">
                 <div class="row">
+                    <!-- Carrusel (50% de la pantalla) -->
                     <div class="col-sm-12 col-md-6 order-md-2">
-                        <img data-aos="fade-left" class="imageSection p-md-5 pe-md-0 pb-md-0" src="./public/img/imgPortadas/LXG-IMP-7.jpg" alt="Imagen">
+                        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <!-- Imagen 1 -->
+                                <div class="carousel-item active">
+                                    <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/LXG-IMP-7.jpg" alt="Imagen 1">
+                                </div>
+                                <!-- Imagen 2 -->
+                                <div class="carousel-item">
+                                    <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/LXG-IMP-7.jpg" alt="Imagen 2">
+                                </div>
+                                <!-- Imagen 3 -->
+                                <div class="carousel-item">
+                                    <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/LXG-IMP-7.jpg" alt="Imagen 3">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-12 pe-md-0 col-md-6 order-md-1 align-self-md-center">
-                        <h3 class="text1 fw-bolder mb-2">
+                    <!-- Texto (50% de la pantalla) -->
+                    <div class="col-sm-12 p-0 pe-md-0 col-md-6 order-md-1 align-self-md-center">
+                        <h3 class="subText fw-bolder mb-2">
                             Fundacion Teleton is a non-profit organization dedicated to providing quality physical
-                            rehabilitation services to underprivileged children
-                            in Peru through 6 Juan de Dios clinics around the country.
+                            rehabilitation services to underprivileged children in Peru through 6 Juan de Dios clinics around the country.
                         </h3>
                         <p class="minText fw-bold mt-5">
                             In 2023 Fundacion Teleton had the following impact:
@@ -319,7 +363,16 @@
                                 PwC audits financial statements
                             </li>
                         </ul>
-                        <img class="iconFirm" src="./public/img/icons/link.png" alt="icon">
+                        <a href=""><img class="iconFirm" src="./public/img/icons/link.png" alt="icon"></a>
+                        <!-- Botones del carousel al lado del texto -->
+                        <div class="col-sm-12 d-flex justify-content-center justify-content-md-start align-items-center mt-3">
+                            <button class="btn_carousel" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                <img class="iconCarousel" src="./public/img/Buttons/btn_prev.png" alt="prev">
+                            </button>
+                            <button class="btn_carousel" data-bs-target="#carouselExample" data-bs-slide="next">
+                                <img class="iconCarousel" src="./public/img/Buttons/btn_next.png" alt="next">
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -344,7 +397,7 @@
                             </h3>
                             <p class="minText fw-semibold paddingBottom">
                                 Over the last few years LXG has provided financial support to Propel.
-                                In addition, LXG team members have participated in several Propel initiatives 
+                                In addition, LXG team members have participated in several Propel initiatives
                                 providing external technical support.
                             </p>
                             <img class="iconFirm mt-5" src="./public/img/icons/link.png" alt="icon">
@@ -357,6 +410,7 @@
     <footer>
         <?php include("template/footer.php") ?>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>

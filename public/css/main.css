@@ -1377,6 +1377,31 @@ a:hover {
     margin: 0 7% !important;
 }
 
+.swiper-container {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.iconCarousel {
+    width: 60% !important; /* Ajusta el tamaño de los íconos */
+    height: 60% !important;
+}
+
+.btn_carousel {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.iconCarousel {
+    width: 70% !important;
+}
+
 #btnPrev,
 #btnNext {
     border: none !important;

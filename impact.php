@@ -268,11 +268,19 @@
                                     </div>
                                     <!-- Imagen 2 -->
                                     <div class="carousel-item">
-                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/LXG-IMP-6.jpg" alt="Imagen 2">
+                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/IMPACT_LXG ARF-02.png" alt="Imagen 2">
                                     </div>
                                     <!-- Imagen 3 -->
                                     <div class="carousel-item">
-                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/LXG-IMP-6.jpg" alt="Imagen 3">
+                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/IMPACT_LXG ARF-03.png" alt="Imagen 3">
+                                    </div>
+                                    <!-- Imagen 4 -->
+                                    <div class="carousel-item">
+                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/IMPACT_LXG ARF-04.png" alt="Imagen 4">
+                                    </div>
+                                    <!-- Imagen 5 -->
+                                    <div class="carousel-item">
+                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/IMPACT_LXG ARF-05.png" alt="Imagen 5">
                                     </div>
                                 </div>
                             </div>
@@ -323,11 +331,11 @@
                                 </div>
                                 <!-- Imagen 2 -->
                                 <div class="carousel-item">
-                                    <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/LXG-IMP-7.jpg" alt="Imagen 2">
+                                    <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/IMPACT_LXG TELETON-06.png" alt="Imagen 2">
                                 </div>
                                 <!-- Imagen 3 -->
                                 <div class="carousel-item">
-                                    <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/LXG-IMP-7.jpg" alt="Imagen 3">
+                                    <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/IMPACT_LXG TELETON-07.png" alt="Imagen 3">
                                 </div>
                             </div>
                         </div>

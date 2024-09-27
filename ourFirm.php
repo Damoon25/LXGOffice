@@ -425,7 +425,7 @@
                                                     </div>
                                                     <div>
                                                         <p class="mt-1 minTextWhite">
-                                                            1441 Brickell Ave. Suite 1016
+                                                            1441 Brickell Ave. Suite 1016 <br>
                                                             Miami, FL, U.S.A. 33131 <br>
                                                             +1 (305) 456-7645
                                                         </p>
@@ -580,7 +580,7 @@
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                You best interests are at the forefront of every decision we make. We
+                                Your best interests are at the forefront of every decision we make. We
                                 hold a fiduciary duty to you and go beyond it, genuinely caring and
                                 dedicating ourselves to always doing what is best for you.
                             </div>

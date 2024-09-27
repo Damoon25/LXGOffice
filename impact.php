@@ -93,7 +93,7 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-5 d-md-flex justify-content-center text-center text-md-start justify-content-md-start mt-5 mb-3">
-                                    <a href=""><img src="./public/img/Buttons/buttonLearnMoreG.png" width="80%" alt="Learn More"></a>
+                                    <a href="#teleton_logo"><img src="./public/img/Buttons/buttonLearnMoreG.png" width="80%" alt="Learn More"></a>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-6 d-none d-md-block p-0 m-0 d-flex align-items-center">
@@ -155,7 +155,7 @@
                             </p>
                         </div>
                         <div class="col-sm-12 col-md-5 d-md-flex justify-content-center text-center text-md-start justify-content-md-start mt-5 mb-3">
-                            <a href=""><img src="./public/img/Buttons/buttonLearnMoreG.png" width="80%" alt="Learn More"></a>
+                            <a href="#teleton_logo"><img src="./public/img/Buttons/buttonLearnMoreG.png" width="80%" alt="Learn More"></a>
                         </div>
                     </div>
                 </div>
@@ -297,7 +297,7 @@
                                 that have suffered from the adverse effects of climate change,
                                 illegal wood cutting, and other practices.
                             </p>
-                            <a href=""><img class="iconFirm mt-5" src="./public/img/icons/link.png" alt="icon"></a>
+                            <a href="https://www.instagram.com/lxgamazonreforestry/" target="_blank"><img class="iconFirm mt-5" src="./public/img/icons/link.png" alt="icon"></a>
 
                             <!-- Botones de control del carrusel -->
                             <div class="col-sm-12 d-flex justify-content-center justify-content-md-start align-items-center mt-5">
@@ -316,7 +316,7 @@
         <div class="container">
             <div class="col-sm-12 paddingTop d-flex justify-content-center">
                 <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                    <img src="./public/img/brands/Logo-full.png" width="50%" alt="Logo">
+                    <img id="teleton_logo" src="./public/img/brands/Logo-full.png" width="50%" alt="Logo">
                 </div>
             </div>
             <div class="col-sm-12 flex-column flex-md-row paddingTop paddingBottom">
@@ -371,7 +371,7 @@
                                 PwC audits financial statements
                             </li>
                         </ul>
-                        <a href=""><img class="iconFirm" src="./public/img/icons/link.png" alt="icon"></a>
+                        <a href="https://teleton.pe/" target="_blank"><img class="iconFirm" src="./public/img/icons/link.png" alt="icon"></a>
                         <!-- Botones del carousel al lado del texto -->
                         <div class="col-sm-12 d-flex justify-content-center justify-content-md-start align-items-center mt-3">
                             <button class="btn_carousel" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -408,7 +408,7 @@
                                 In addition, LXG team members have participated in several Propel initiatives
                                 providing external technical support.
                             </p>
-                            <img class="iconFirm mt-5" src="./public/img/icons/link.png" alt="icon">
+                            <a href="https://www.wepropel.org/" target="_blank"><img class="iconFirm mt-5" src="./public/img/icons/link.png" alt="icon"></a>
                         </div>
                     </div>
                 </div>

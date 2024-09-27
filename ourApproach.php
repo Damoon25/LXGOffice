@@ -28,7 +28,7 @@
                             <div class="col-sm-12 col-lg-8 mx-lg-auto text-center">
                                 <p class="textWhite">
                                     At LXG Family Office, our dedicated team specializes in providing personalized wealth planning,
-                                    investment management, and family-office services. Our approach is centered on holistic advisory,
+                                    investment management, and family office services. Our approach is centered on holistic advisory,
                                     offering a 360-degree view of your unique needs, requirements, and objectives.
                                     What sets us apart is our commitment to providing advisory services free of third-party commissions,
                                     ensuring that your best interests remain at the forefront with no conflicts of interest in the process.

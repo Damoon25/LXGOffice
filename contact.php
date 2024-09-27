@@ -99,7 +99,7 @@
                                                     </div>
                                                     <div>
                                                         <p class="mt-1 minTextWhite">
-                                                            1441 Brickell Ave. Suite 1016
+                                                            1441 Brickell Ave. Suite 1016 <br>
                                                             Miami, FL, U.S.A. 33131 <br>
                                                             +1 (305) 456-7645
                                                         </p>

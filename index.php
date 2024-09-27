@@ -31,8 +31,13 @@
                                 </div>
                             </div>
                             <div class="icons-container position-absolute">
-                                <a href=""><img class="icon2" src="./public/img/icons/linkedin.svg" alt="Linkedin"></a>
-                                <a href=""><img class="icon2" src="./public/img/icons/ubicacion.svg" alt="Ubicación"></a>
+                                <a href="https://www.linkedin.com/company/lxg-multi-family-office/" target="_blank"><img class="icon2" src="./public/img/icons/linkedin.svg" alt="Linkedin"></a>
+                                <a href="https://www.google.com/maps/place/1441+Brickell+Ave,+Miami,+FL+33131,
+                                        +EE.+UU./@25.7587318,-80.1964265,17z/data=
+                                        !3m1!4b1!4m6!3m5!1s0x88d9b739339f34d9:0xd5d003e
+                                        8de3745c8!8m2!3d25.7587319!4d-80.1915609!16s%2Fg%
+                                        2F11kdpbb38c!5m1!1e1?entry=ttu&g_ep=
+                                        EgoyMDI0MDkyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="icon2" src="./public/img/icons/ubicacion.svg" alt="Ubicación"></a>
                                 <!-- <button class="btnMenu2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
                                     <img src="./public/img/Buttons/menu.svg" alt="Menu">
                                 </button> -->
@@ -75,7 +80,7 @@
                                 <h2 class="titleSection titleWhatWe text-center text-md-start paddingTop">What we do</h2>
                                 <div class="text-center text-md-start">
                                     <p class="subText mb-4">
-                                        Our clients have a broad range of background and requirements.
+                                        Our clients have a broad range of backgrounds and requirements.
                                         We serve families looking to address succession and legacy challenges,
                                         as well as their investment portfolio and asset management objectives.
                                         <span class="subText fw-lighter mb-4">
@@ -88,7 +93,7 @@
                                     </p>
                                 </div>
                                 <div class="col-sm-12 col-md-5 d-md-flex justify-content-center text-center text-md-start justify-content-md-start mt-5 mb-3">
-                                    <a href="../LXG/ourApproach.php#ourApproach"><img src="./public/img/Buttons/buttonLearnMore2.svg" alt="Learn More"></a>
+                                    <a href="./ourApproach.php"><img src="./public/img/Buttons/buttonLearnMore2.svg" alt="Learn More"></a>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-6 d-none d-md-block p-0 m-0 d-flex align-items-center">

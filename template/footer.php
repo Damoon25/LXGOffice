@@ -53,10 +53,10 @@
                         </div>
                     </div>
                     <div class="text-center text-md-start mt-2">
-                        <p class="textFooter fw-bolder m-0">Lima, Perú:</p>
+                        <p class="textFooter fw-bolder m-0">Miami FL, USA:</p>
                         <p class="textFooter m-0">
-                            Av. Felipe Pardo y Aliaga 675, <br>
-                            San Isidro, 15073, Lima.
+                            1441 Brickell Ave. Suite 1016 <br>
+                            Miami, FL, U.S.A. 33131
                         </p>
                     </div>
                 </div>
